@@ -13,8 +13,8 @@
     <title>Toronto Perl Mongers</title>
     <meta name="description" content="">
     <meta name="author" content="The Toronto Perl Mongers Team">
-  
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link REL="SHORTCUT ICON" HREF="[% request.uri_base %]/favicon.ico">
     <link rel="stylesheet" href="[% request.uri_base %]/css/bootstrap.css">
     <link rel="stylesheet" href="[% request.uri_base %]/css/style.css" />
     <script src="[% request.uri_base %]/js/libs/modernizr-2.0.6.min.js"></script>
@@ -28,8 +28,10 @@
                 <a class="brand" href="#">Toronto Perl Mongers</a>
                 <ul class="nav">
                     <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#meetings">Meetings</a></li>
+                    <li><a href="#contact">Projects</a></li>
+                    <li><a href="#contact">Reviews</a></li>
+                    <li><a href="#contact">Sponsors</a></li>
                 </ul>
             </div>
         </div>
@@ -39,14 +41,14 @@
 
         <div class="content">
             <div class="page-header">
-              <h1>Page name <small>Supporting text or tagline</small></h1>
+                <h1>[% template.page_name %] <small>[% template.page_info %]</small></h1>
             </div>
             <div class="row">
                 <div class="span10">
                     [% content %]
                 </div>
                 <div class="span4">
-                    <h3>Secondary content</h3>
+                    <h3>Calendar</h3>
                 </div>
             </div>
         </div>

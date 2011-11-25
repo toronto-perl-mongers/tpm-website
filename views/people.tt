@@ -1,0 +1,38 @@
+<div id="page-content">
+
+    <center><h1>Local Mongers</h1></center>
+
+    <p>
+    Here are some of the Mongers you might bump into at our regular meetings:
+    </p>
+
+    <ul>
+        <li>
+           Dave Doyle
+            <ul>
+                <li><a href="http://twitter.com/meraxes">twitter.com/meraxes</a></li>
+            </ul>
+        </li>
+       <li>
+           Mark Jubenville
+            <ul>
+                <li><a href="https://metacpan.org/author/IONCACHE">metacpan.org/author/IONCACHE</a></li>
+                <li><a href="http://twitter.com/ioncache">twitter.com/ioncache</a></li>
+            </ul>
+        </li>
+        <li>
+            Olaf Alders
+            <ul>
+                <li><a href="https://metacpan.org/author/OALDERS">metacpan.org/author/OALDERS</a></li>
+                <li><a href="http://blogs.perl.org/users/olaf_alders/">blogs.perl.org/users/olaf_alders/</a></li>
+                <li><a href="http://twitter.com/wundercounter">twitter.com/wundercounter</a></li>
+            </ul>
+         <li>
+            Stuart Watt
+            <ul>
+                <li><a href="http://twitter.com/morungos">twitter.com/morungos</a></li>
+            </ul>
+        </li>
+        </li>
+    </ul>
+</div>
