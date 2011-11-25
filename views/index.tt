@@ -1,4 +1,4 @@
-[% INCLUDE partials/contact.tt %]
-[% INCLUDE partials/mailing_list.tt %]
-[% INCLUDE partials/meetings.tt %]
-[% INCLUDE partials/recordings.tt %]
+[% META page_name = 'Welcome to the Toronto Perl Mongers' %]
+[% META page_info = '' %]
+
+<p>The Toronto Perl Mongers is a group of Perl programmers and hackers of all levels who get together to talk about Perl. Perl is a programming language which can be used for a large variety of tasks. A typical simple use of Perl would be for extracting information from a text file and printing out a report or for converting a text file into another form. But Perl provides a large number of tools for quite complicated problems, including systems programming and scientific research.</p>
