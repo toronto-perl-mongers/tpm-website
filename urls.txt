@@ -1,0 +1,8 @@
+/
+/css
+/css/error.css
+/css/style.css
+/favicon.ico
+/images/perldancer-bg.jpg
+/images/perldancer.jpg
+/javascripts/jquery.js

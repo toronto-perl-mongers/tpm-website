@@ -1,0 +1,4 @@
+This is the repository for Toronto Perl Mongers
+
+To create a static dump of this dancer application run this:
+perl -Ilib bin/wallflower -a TorontoPerlMongers -d /tmp/output urls.txt

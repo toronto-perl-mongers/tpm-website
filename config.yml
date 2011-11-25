@@ -20,10 +20,10 @@ charset: "UTF-8"
 
 #template: "simple"
 
- template: "template_alloy"
- engines:
-   template_alloy:
-     encoding:  'utf8'
-     start_tag: '[%'
-     end_tag:   '%]'
+template: "alloy"
+engines:
+    template_alloy:
+        encoding:  'utf8'
+        start_tag: '[%'
+        end_tag:   '%]'
 
