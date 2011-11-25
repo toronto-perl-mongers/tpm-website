@@ -7,7 +7,7 @@ appname: "TorontoPerlMongers"
 
 # The default layout to use for your application (located in
 # views/layouts/main.tt)
-layout: "main"
+#layout: "main"
 
 # when the charset is set to UTF-8 Dancer will handle for you
 # all the magic of encoding and decoding. You should not care
@@ -23,8 +23,5 @@ auto_page: 1
 
 template: "alloy"
 engines:
-    template_alloy:
-        encoding:  'utf8'
-        start_tag: '[%'
-        end_tag:   '%]'
-
+      alloy:
+        WRAPPER: 'layouts/main.tt'
