@@ -1,0 +1,26 @@
+<div class="section-heading"><a name="Mailing-List"></a>Mailing List</div>
+
+<p>
+We communicate primarily via our
+<a href="http://mail.pm.org/mailman/listinfo/toronto-pm">mailing list</a>.
+The archives from March 2007 onwards are
+<a href="http://mail.pm.org/pipermail/toronto-pm/">here</a>.
+
+</p>
+<form method="get" action="http://www.google.com/search">
+<div style="border:1px solid black;padding:4px;width:20em;">
+<label for="q">Search TPM mail archive</label>
+<input type="text" name="q" id="q" size="25" maxlength="255" value="" />
+<!--
+Individual submissions appear as html, the downloadable versions are text.
+As we're searching it seems more appropriate to return the individual message,
+so we use as_filetype to filter the results.  Found in
+http://book.chinaunix.net/special/ebook/oreilly/Google_Hacks/0596008570/googlehks2-CHP-1-SECT-30.html
+-->
+<input type="hidden" name="as_sitesearch" value="mail.pm.org/pipermail/toronto-pm/" />
+<input type="hidden" name="as_filetype" value="html" />
+<input type="submit" value="Google Search" />
+</div>
+</form>
+
+</div>
