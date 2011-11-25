@@ -32,6 +32,7 @@
                     <li><a href="[% request.uri_base %]/meetings">Meetings</a></li>
                     <li><a href="[% request.uri_base %]/projects">Projects</a></li>
                     <li><a href="[% request.uri_base %]/reviews">Reviews</a></li>
+                    <li><a href="[% request.uri_base %]/people">People</a></li>
                     <li><a href="[% request.uri_base %]/sponsors">Sponsors</a></li>
                 </ul>
             </div>
