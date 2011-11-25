@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <datetime>2010-02-25T18:45</datetime>
+    <venue>Nexient, classroom 11, 8th floor</venue>
+  </details>
+	<talk>
+		<speaker>Kartik Thakore</speaker>
+    <title>Perl SDL Bindings</title>
+		<description>
+			<p>
+			  A practial introduction to the Perl SDL bindings.
+			</p>
+			<p>
+				SDL is the Simple Directmedia Layer: "a cross-platform multimedia
+				library designed to provide low level access to audio, keyboard,
+				mouse, joystick, 3D hardware via OpenGL, and 2D video framebuffer."
+				See
+				<a href="http://www.libsdl.org/">http://www.libsdl.org/</a> for
+				more information.
+			</p>
+		</description>
+	</talk>
+</meeting>

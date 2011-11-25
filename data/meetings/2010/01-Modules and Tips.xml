@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Modules and Tips</topic>
+    <datetime>2010-01-28T18:45</datetime>
+    <venue>Nexient Learning; Room 15 on the 8th floor</venue>
+    <!-- leader label="Emcee">Some Dude</leader -->
+		<synopsis>
+			<p>
+				A series of quick talks covering various modules which people have
+				found useful or instructive.  Some are old standbys, some are new.
+			</p>
+			<p>
+				Some of the presentations are archived
+				<a href="/presentations/2010-01/">here</a>.
+			</p>
+		</synopsis>
+  </details>
+  <talk>
+    <speaker>Abram Hindle</speaker>
+    <title>Net::OpenID::Server</title>
+	</talk>
+	<talk>
+    <speaker>Alan Rocker</speaker>
+		<title>How I nearly used Perl for a job, then came to my senses.</title>
+		<description>
+			<p><em>A short cautionary tale.</em></p>
+    </description>
+	</talk>
+	<talk>
+    <speaker>Alex Beamish</speaker>
+		<title>SQL - abstraction,  injection,  etc.</title>
+	</talk>
+	<talk>
+    <speaker>Dave Doyle</speaker>
+		<title>A couple of validation modules</title>
+		<description>
+			<ul>
+				<li>Data::Schema</li>
+				<li>Params::Validate</li>
+			</ul>
+    </description>
+	</talk>
+	<talk>
+    <speaker>Mike Stok</speaker>
+		<title>Odds &amp; Ends</title>
+		<description>
+			<p>
+				Website updates, a chance to do some non-maintenance Perl.
+				Quick points from a handfull of modules and tools:
+			</p>
+			<ul>
+				<li>local::lib</li>
+				<li>perlcritic</li>
+				<li>perltidy</li>
+				<li>Path::Class</li>
+				<li>Template</li>
+				<li>File::Find::Rule</li>
+				<li>XML::Twig</li>
+			</ul>
+		</description>
+  </talk>
+</meeting>

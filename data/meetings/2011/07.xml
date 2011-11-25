@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>YAPC::NA &amp; Parallel Perl</topic>
+    <datetime>2011-07-21T18:45</datetime>
+    <venue>Global Knowledge (TBA)</venue>
+    <synopsis>
+      <p>
+	<b>Note that this is a week early because of Damian Conway's
+	presentations in the first week of August</b>
+      </p>
+      <p>
+	A couple of talks about the recent YAPC::NA conference, and
+	a talk about parallel Perl.
+      </p>
+    </synopsis>
+  </details>
+</meeting>

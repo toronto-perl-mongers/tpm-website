@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Arduino &amp; Perl</topic>
+    <datetime>2011-05-26T18:45</datetime>
+    <venue>Global Knowledge (room G on the 12th floor)</venue>
+    <leader label="Ring-master">Mike Stok</leader>
+    <synopsis>
+      <p>
+	This month we play with <a href="http://www.arduino.cc/">Arduino</a>s.
+      </p>
+    </synopsis>
+  </details>
+  <talk>
+    <speaker>Mike Stok</speaker>
+    <title>Quick Intro to Arduino</title>
+    <description>
+      <p><a href="/presentations/2011-05/arduino.pdf">PDF of Arduino slides</a></p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>J Z Tam</speaker>
+    <title>Cooking with Arduino</title>
+    <description>
+	<a href="https://secure.wikimedia.org/wikipedia/en/wiki/Sous-vide">Sous
+	vide</a> and Arduinos.
+    </description>
+  </talk>
+  <talk>
+    <speaker>Olaf Alders</speaker>
+    <title>TBD</title>
+    <description>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Alex Mackinnon</speaker>
+    <title>Perl, Sensors, and Image Generation</title>
+    <description>
+    </description>
+  </talk>
+</meeting>

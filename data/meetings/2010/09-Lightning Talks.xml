@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Lightning Talks</topic>
+    <datetime>2010-09-30T18:45</datetime>
+    <venue>Nexient, Classroom E (5), 12th Floor</venue>
+    <leader label="Emcee">Fulko Hew</leader>
+		<synopsis>
+	<p>
+		Short, 5 to 15 minute talks from a variety of people, on any
+		subject as long as it's got at least a tangent to Perl.
+	</p>
+        <p>
+                <a href="/presentations/2010-09/">Presentation materials</a>
+        </p>
+    <p>
+      The order of talks listed here does not imply any order of
+      presentation.
+    </p>
+  </synopsis>
+  </details>
+  <talk>
+    <speaker>Fulko Hew</speaker>
+    <title>Render On Caesar</title>
+  </talk>
+  <talk>
+    <speaker>Mike Stok</speaker>
+    <title>Don't Quote Me On That</title>
+  </talk>
+  <talk>
+    <speaker>Alan Rocker</speaker>
+    <title>Whats new in Perl 5.10 and 5.12</title>
+  </talk>
+  <talk>
+    <speaker>Olaf Alders</speaker>
+    <title>Getting Started with Dist::Zilla</title>
+    <description>
+      <p>(Added from mailing list post after the talk)</p>
+
+<p>Also, the sample Dist::Zilla .dzil configuration is posted here:</p>
+
+<p><a href="http://github.com/oalders/dzil-defaults/">http://github.com/oalders/dzil-defaults/</a></p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Olaf Alders</speaker>
+    <title>Mangling CPAN with Plack::App::Proxy</title>
+    <description>
+      <p>(Added from mailing list post after the talk)</p>
+<p>I've posted last night's slides:  <a href="http://www.slideshare.net/oalders/mangling">http://www.slideshare.net/oalders/mangling</a>  </p>
+
+<p>If you're interested in Plack at all, I'd suggest you check out the repo and try it out. You should be up and running in just a few minutes.  Let me know if you run into any problems with it.</p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Tom Legrady</speaker>
+    <title>Lightning Perl 6</title>
+  </talk>
+  <talk>
+    <speaker>Phillip Smith</speaker>
+    <title>&quot;Bricolage for dummies&quot;</title>
+    <description>
+      <a href="http://www.phillipadsmith.com/files/presentations/bricolage">Phillip's slides</a>
+    </description>
+  </talk>
+  <talk>
+    <speaker>James E Keenan</speaker>
+    <title>Where Do C Programmers Come From?</title>
+  </talk>
+  <talk>
+    <speaker>James E Keenan</speaker>
+    <title>Wha' Do We Ain't Got?</title>
+  </talk>
+  <talk>
+    <speaker>Henry Baragar</speaker>
+    <title>Git as a Back Up Tool</title>
+  </talk>
+</meeting>

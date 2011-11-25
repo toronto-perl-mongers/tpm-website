@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>The Perl Debugger for Power Users</topic>
+    <datetime>2010-10-28T18:45</datetime>
+    <venue>Nexient, classroom 2 on the 12th floor</venue>
+    <synopsis>
+      <p>
+        A talk about the Perl debugger sandwiched between a couple
+        of short presentations.
+      </p>
+    </synopsis>
+  </details>
+  <talk>
+    <speaker>Dave Doyle</speaker>
+    <title>Digging into CPAN</title>
+    <description>
+      <p>
+        Postponed Lightning Talk.
+      </p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Stuart Watt</speaker>
+    <title>The Perl Debugger for Power Users</title>
+    <description>
+      <p>
+        Tricks for power users who want to get the most out of Perl's
+        debugger.  This might touch on performance exploration using
+        <a href="http://search.cpan.org/~timb/Devel-NYTProf-4.05/lib/Devel/NYTProf.pm"
+        >Devel::NYTProf</a>.
+      </p>
+      <p>
+	Other interesting modules mentioned included: Devel::Leak, Devel::Size,
+	Devel::Cycle, Smart::Comments.
+      </p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Tom Legrady</speaker>
+    <title>Pittsburgh Perl Workshop 2010</title>
+    <description>
+      <p>
+        What happened at the <a href="http://pghpw.org/ppw2010/">Pittsburgh
+        Perl Workshop 2010</a>.
+      </p>
+    </description>
+  </talk>
+</meeting>
