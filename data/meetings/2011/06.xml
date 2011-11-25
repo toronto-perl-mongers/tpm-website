@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>"Recent" Perl Releases</topic>
+    <datetime>2011-06-30T18:45</datetime>
+    <venue>Global Knowledge (Room B, 12th floor)</venue>
+    <synopsis>
+      <p>
+        Various projects (e.g. DBIx::Class) are ending their support
+	for perl 5.8.8 soon.  This means organisations stuck using 
+	perl 5.8.8 will become mired in the past with no hope of
+	attracting programmers who like using more modern Perl.
+      </p>
+      <p>
+        So what are the high points of more recent perls?
+      </p>
+    </synopsis>
+  </details>
+  <talk>
+    <speaker>Alan Rocker</speaker>
+    <title>Perl 5.8.8 -&gt; Perl 5.10 -&gt; 5.12</title>
+    <description>
+      <p>
+        The changes in perl between perl 5.8.8 and 5.12.  Examples
+	and notes <a href="/presentations/2011-06/arocker/">here</a>.
+      </p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Stuart Watt</speaker>
+    <title>Perl 5.12 -&gt; Perl 5.14</title>
+    <description>
+      <p>
+	More goodies!
+      </p>
+    </description>
+  </talk>
+</meeting>

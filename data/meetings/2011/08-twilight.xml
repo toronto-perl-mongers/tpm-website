@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>The Twilight Perl</topic>
+    <datetime>2011-08-02T19:00</datetime>
+    <venue>Sanford Flemming Building, Room 1105 (The Blue Room), U of T St. George Campus</venue>
+  </details>
+  <talk>
+    <speaker>Damian Conway</speaker>
+    <title><a href="http://damian.conway.org/Seminars/Twilight.html">The Twilight Perl</a></title>
+    <description>
+      <p>
+&quot;You unlock this door with the key of a hash. Beyond it is another
+dimension—a dimension of strange constructs, a dimension of improbable
+behaviour. You're moving into a land of both weird syntax and unlikely
+semantics, of unintended features and unexpected beauty. You've just crossed
+over into...The Twilight Perl.&quot;
+      </p>
+	<p>
+Join Damian for a head-trip through a dozen or so arcane and sinister
+“features” of Perl. Much of what you thought was required...isn’t; some of
+what you thought was impossible...is easy. Cast off your strictures and
+warnings and set your programs free. Embrace the Dark Side of the Code. You
+have nothing to lose—except your sanity!
+      </p>
+    </description>
+  </talk>
+</meeting>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>March Madness</topic>
+    <datetime>2010-03-25T18:45</datetime>
+    <venue>Nexient; Room 2 on the 12th floor</venue>
+		<synopsis>
+			<p>
+				This month we have a few talks for your delight. The first is a 
+				quick introdcution to OPENapps, and then a dose of
+				Perl mayhem, and then a look at some of the modules
+				Richard Dice has been using lately.
+			</p>
+		</synopsis>
+	</details>
+	<talk>
+		<speaker>Kristan &quot;Krispy&quot; Uccello</speaker>
+		<title>An introduction to OPENapps</title>
+		<description>
+			<p>Imagine you create a web application and
+			had the ability to sell it to many web
+			site owners on the internet. Now imagine
+			you could sell it without giving up the
+			source code. OPENapps makes this happen.</p>
+
+			<p>OPENapps is a powerful language agnostic platform allowing you
+      to offer up web applications to a wide audience of website
+      owners. OPENapps takes care of the things that developers
+      typically find boring or repetitious such as billing and tracking;
+      while at the same time providing robust technology for integration
+			of your applications with content publishers sites.</p>
+
+			<p>OPENapps is offering a limited developer beta to web developers
+      who demonstrate that they have a killer app idea and a desire
+			to implement it.</p>
+		</description>
+	</talk>
+	<talk>
+		<speaker>Mark Jubenville</speaker>
+		<title>Perl Mayhem</title>
+		<description>
+			<p>A little delayed gratification from last year's Lightning 
+			Talks.</p>
+		</description>
+	</talk>
+	<talk>
+		<speaker>Richard Dice</speaker>
+		<title>Show &amp; Tell - Modules Richard is using</title>
+		<description>
+			<p>
+				A look at some of the things Richard is working with
+				these days, including
+				<a href="http://search.cpan.org/~mlehmann/Coro-5.21/Coro/Intro.pod"
+				>Coro</a>,
+			  <a
+				href="http://search.cpan.org/~mlehmann/AnyEvent-5.251/lib/AnyEvent/Intro.pod"
+				>AnyEvent</a> and the daemonization of Perl code.
+			</p>
+		</description>
+	</talk>
+</meeting>

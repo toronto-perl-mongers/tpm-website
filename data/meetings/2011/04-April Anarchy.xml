@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>April Anarchy (Spring Lightning Talks)</topic>
+    <datetime>2011-04-28T18:45</datetime>
+    <venue>Global Knowledge (room G on the 12th floor)</venue>
+    <leader label="Emcee">TBA</leader>
+    <synopsis>
+      <p>
+       	Short, 5 to 15 minute talks from a variety of people, on any
+       	subject as long as it's got at least a tangent to Perl.
+      </p>
+      <p>
+        The order of talks listed here does not imply any order of
+        presentation.
+      </p>
+    </synopsis>
+  </details>
+  <talk>
+    <speaker>Dave Doyle</speaker>
+    <title>A Quick Overview of Bread::Board</title>
+    <description>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Olaf Alders</speaker>
+    <title>The MetaCPAN API</title>
+    <description>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Stuart Watt</speaker>
+    <title>Rolling Your Own Test Module</title>
+    <description>
+      Using <tt>Test::Builder</tt> and <tt>Test::Tester</tt>
+    </description>
+  </talk>
+</meeting>

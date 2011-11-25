@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <datetime>2010-08-26T18:45</datetime>
+    <venue>Nexient; classroom 7, 12th floor</venue>
+  </details>
+  <talk>
+    <speaker>Abram Hindle</speaker>
+    <title>Web Based Computer Music</title>
+    <description>
+      <p>
+        Use <a href="http://mongrel2.org/">mongrel2</a> and
+        <a href="http://www.zeromq.org/">ZeroMQ</a>
+        to re-purpose computer interfaces which aren't intended to
+        be musical to turn them into instruments.  See
+    <a href="http://softwareprocess.es/index.cgi/WebBasedComputerMusic"
+    >http://softwareprocess.es/index.cgi/WebBasedComputerMusic</a>
+       </p>
+    </description>
+  </talk>
+</meeting>

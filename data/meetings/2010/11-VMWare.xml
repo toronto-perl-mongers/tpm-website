@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>VMWare</topic>
+    <datetime>2010-11-25T18:45</datetime>
+    <venue>Nexient: 12th floor, classroom E (5)</venue>
+    <synopsis>
+      <p>
+        A couple of talks about <a href="http://www.vmware.com/">VMWare</a>.
+      </p>
+    </synopsis>
+  </details>
+  <talk>
+    <speaker>J. Bobby Lopez</speaker>
+    <title>VMWare</title>
+    <description>
+      <ul>
+        <li>Quick VMware Intro (Free Products)</li>
+        <li>Installation Summary - VMware Server 2.0</li>
+        <li>Installation Summary - VMware ESXi 4.0</li>
+        <li>General VM Configuration Guidelines</li>
+        <li>Basic VM management with VI Perl Toolkit</li>
+      </ul>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Fulko Hew</speaker>
+    <title>Using the 'VI Perl Toolkit'</title>
+    <description>
+      <p>
+        A lightning talk about a simple management app I wrote using the 'VI Perl Toolkit'
+      </p>
+    </description>
+  </talk>
+</meeting>

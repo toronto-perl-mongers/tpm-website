@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Lightning Talks</topic>
+    <datetime>2011-09-29T18:45</datetime>
+    <venue>Global Learning</venue>
+    <leader label="Emcee">Fulko Hew</leader>
+		<synopsis>
+	<p>
+		5 minute talks from a variety of people, on any
+		subject as long as it's tangentially related to Perl.
+	</p>
+    <p>
+      Talks listed in order of presentation, materials are 
+      <a href="/presentations/2011-09/">here</a>.
+    </p>
+  </synopsis>
+  </details>
+  <talk>
+    <speaker>Tom Legrady</speaker>
+    <title>Modular Development</title>
+  </talk>
+  <talk>
+    <speaker>Henry Baragar</speaker>
+    <title>Localizing CPAN modules for Different Applications</title>
+    <description>
+      <p>
+        Practical tips on installing per-application modules so
+        you can deploy your applications independantly and safely.
+      </p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Henry Baragar</speaker>
+    <title>Slug Update</title>
+    <description>
+      <p>
+        A follow-up to last year's talk on git as a backup tool.
+     </p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Dave Doyle</speaker>
+    <title>perlootut</title>
+    <description>
+      <p>
+        An overview of Dave Rolsky's revamp of Perl's <a href="http://blog.urth.org/2011/09/my-new-oo-docs-for-the-perl-core-have-been-merged.html">OO tutorial</a>.
+     </p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Olaf Alders</speaker>
+    <title>git submodule</title>
+    <description>
+      <p>
+	An explanation and illustration of the git submodule mechanism
+        which mere mortals can understand.
+     </p>
+     <p>
+       Slides at <a href="http://www.slideshare.net/oalders/git-submodule">http://www.slideshare.net/oalders/git-submodule</a>.
+     </p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Alan Rocker</speaker>
+    <title>Vim Scripting Language</title>
+    <description>
+      <p>
+	An introduction to vim's scripting language.  Links referenced 
+	in the talk included:
+      </p>
+      <dl>
+	<dt>Cheesemonger:</dt><dd><a href="http://everything2.com/title/Whoremonger">http://everything2.com/title/Whoremonger</a></dd>
+	<dt>Damian's code:</dt><dd> <a href="https://github.com/thoughtstream/Damian-Conway-s-Vim-Setup">https://github.com/thoughtstream/Damian-Conway-s-Vim-Setup</a></dd>
+	<dt>Vim manual:</dt><dd>    <a href="http://vimdoc.sourceforge.net/htmldoc/usr_41.html#script">http://vimdoc.sourceforge.net/htmldoc/usr_41.html#script</a></dd>
+	<dt>VimPAN:</dt><dd>        <a href="http://vim.sourceforge.net/scripts/index.php">http://vim.sourceforge.net/scripts/index.php</a></dd>
+	<dt>IBM tutorials:</dt><dd> <a href="http://www.ibm.com/developerworks/linux/library/l-vim-script-1/index.html">http://www.ibm.com/developerworks/linux/library/l-vim-script-1/index.html</a></dd>
+      </dl>
+    </description>	    
+  </talk>
+  <talk>
+    <speaker>Mike Stok</speaker>
+    <title>Run Away</title>
+    <description>
+      <p>
+	Thoughts about Perl and its place in Mike's world after a
+	couple of decades of using it as his primary programming language.
+      </p>
+      <p>
+	Looking for intersting ideas and innovations e.g. Ruby's
+	<a href="http://www.unlimitednovelty.com/2011/05/introducing-celluloid-concurrent-object.html">celluloid</a>
+	which might work well on parallel hardware one day, maybe on
+	<a href="http://xmos.com">XMOS</a>?
+      </p>
+      <p>
+        Languages supported at <a href="http://www.heroku.com">heroku</a>:
+      </p>
+      <ul>
+        <li><a href="http://www.ruby-lang.org/">Ruby</a></li>
+        <li><a href="http://nodejs.org/">node.js</a></li>
+        <li><a href="http://clojure.org/">Clojure</a></li>
+        <li><a href="http://www.oracle.com/technetwork/java/index.html/">Java</a></li>
+        <li><a href="http://python.org/">Python</a></li>
+      </ul>
+      <p>
+        Languages mentioned in <a href="http://pragprog.com/book/btlang/seven-languages-in-seven-weeks">Seven Languages in Seven Weeks</a>:
+      </p>
+      <ul>
+        <li><a href="http://www.ruby-lang.org/">Ruby</a></li>
+	<li><a href="http://iolanguage.com/">Io</a></li>
+	<li><a href="http://c2.com/cgi/wiki?PrologLanguage">Prolog</a></li>
+        <li><a href="http://scala-lang.org/">Scala</a></li>
+        <li><a href="http://clojure.org/">Clojure</a></li>
+        <li><a href="http://www.oracle.com/technetwork/java/index.html/">Haskell</a></li>
+        <li><a href="http://python.org/">Python</a></li>
+      </ul>
+    </description>
+  </talk>
+</meeting>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Perl and Phones (part II)</topic>
+    <datetime>2010-06-24T18:45</datetime>
+    <venue>Nexient; Room 7 on the 12th floor</venue>
+		<synopsis>
+			<p>
+				This month we have Scott's talk on Perl on Android. 
+			</p>
+		</synopsis>
+	</details>
+	<talk>
+		<speaker>Scott Elcomb</speaker>
+		<title>Perl on Android</title>
+		<description>
+		</description>
+	</talk>
+</meeting>

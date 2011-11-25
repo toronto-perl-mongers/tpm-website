@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Git Flow</topic>
+    <datetime>2011-01-27T18:45</datetime>
+    <venue>Global Knowledge (room G (7) 12th Floor)</venue>
+  </details>
+  <talk>
+    <speaker>Alex Beamish</speaker>
+    <title>Git Flow</title>
+    <description>
+      <p>Some observations on using <a href="https://github.com/nvie/gitflow">git-flow</a>
+      to manage branching and merging in <a href="http://git-scm.com/">git</a>.</p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>TBA</speaker>
+    <title>Google Summer of Code</title>
+    <description>
+      <p>Preparation for participation in Google Summer of Code.</p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Olaf et al.</speaker>
+    <title>Freshwater Perl Planning</title>
+    <description>
+      <p>Planning for Freshwater Perl event.</p>
+    </description>
+  </talk>
+</meeting>

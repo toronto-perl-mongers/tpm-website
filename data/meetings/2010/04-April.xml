@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>KinoSearch - Free Text Search</topic>
+    <datetime>2010-04-29T18:45</datetime>
+    <venue>Nexient; Room 2 on the 12th floor</venue>
+		<!--
+		<synopsis>
+			<p>
+				This month we have a couple of talks...
+			</p>
+		</synopsis>
+		-->
+	</details>
+	<talk>
+		<speaker>Stuart Watt</speaker>
+		<title>Free Text Search a la KinoSearch</title>
+		<description>
+			<a href="http://www.rectangular.com/kinosearch/">KinoSearch</a>
+			is a Perl search engine library.  Stuart will cover the basics
+			of information retrieval technology, and the use of the module.
+			The module is pretty easy to use when you get the hang of it.
+		</description>
+	</talk>
+</meeting>

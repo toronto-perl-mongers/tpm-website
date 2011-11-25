@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>(Re)Developing in Perl 6</topic>
+    <datetime>2011-08-04T19:00</datetime>
+    <venue>Sanford Flemming Building, Room 1105 (The Blue Room), U of T St. George Campus</venue>
+  </details>
+  <talk>
+    <speaker>Damian Conway</speaker>
+    <title>(Re)Developing in Perl 6</title>
+    <description>
+      <p>
+	      Now that Perl 6 is available in a usable form &lt;<a href="http://www.rakudo.org/">http://www.rakudo.org/</a>&gt;, over
+the past twelve months Damian has revisited some of his most popular Perl 5
+modules and reimplemented them in "native" Perl 6.
+      <p>
+      </p>
+In this talk he will walk through the changes needed to port several of
+those modules, a journey that gives a surprisingly thorough overview of how
+the two languages differ, as well as insights into the relative strengths of
+each.
+      </p>
+    </description>
+  </talk>
+</meeting>

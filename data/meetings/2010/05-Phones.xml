@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Perl and Phones</topic>
+    <datetime>2010-05-27T18:45</datetime>
+    <venue>Nexient, classroom 3, 12th floor</venue>
+		<synopsis>
+			<p>
+				This month's theme is Perl and phones. 
+			</p>
+		</synopsis>
+	</details>
+	<talk>
+		<speaker>Olaf Anders and Mark Jubenville</speaker>
+		<title>CPAN POD on an iPhone</title>
+		<description>
+		</description>
+	</talk>
+</meeting>
