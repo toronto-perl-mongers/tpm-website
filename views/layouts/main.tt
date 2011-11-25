@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 
 <html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
@@ -16,19 +14,48 @@
     <meta name="description" content="">
     <meta name="author" content="The Toronto Perl Mongers Team">
   
-    <!-- Mobile viewport optimized: j.mp/bplateviewport -->
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="[% request.uri_base %]/css/bootstrap.css">
     <link rel="stylesheet" href="[% request.uri_base %]/css/style.css" />
-    <!-- All JavaScript at the bottom, except for Modernizr / Respond.
-         Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
-         For optimal performance, use a custom Modernizr build: www.modernizr.com/download/ -->
     <script src="[% request.uri_base %]/js/libs/modernizr-2.0.6.min.js"></script>
 </head>
 
 <body>
 
-    [% content %]
+    <div class="topbar">
+        <div class="fill">
+            <div class="container">
+                <a class="brand" href="#">Toronto Perl Mongers</a>
+                <ul class="nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="content">
+            <div class="page-header">
+              <h1>Page name <small>Supporting text or tagline</small></h1>
+            </div>
+            <div class="row">
+                <div class="span10">
+                    [% content %]
+                </div>
+                <div class="span4">
+                    <h3>Secondary content</h3>
+                </div>
+            </div>
+        </div>
+  
+        <footer>
+            <p>&copy; Toronto Perl Mongers 2011</p>
+        </footer>
+
+    </div> <!-- /container -->
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
     <script type="text/javascript">/* <![CDATA[ */
