@@ -13,6 +13,7 @@ layout: "main"
 # all the magic of encoding and decoding. You should not care
 # about unicode within your app when this setting is set (recommended).
 charset: "UTF-8"
+auto_page: 1
 
 # template engine
 # simple: default and very basic template engine
