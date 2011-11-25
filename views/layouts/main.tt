@@ -7,13 +7,14 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-  
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  
-    <title>Toronto Perl Mongers</title>
     <meta name="description" content="">
     <meta name="author" content="The Toronto Perl Mongers Team">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Toronto Perl Mongers</title>
+
+
     <link REL="SHORTCUT ICON" HREF="[% request.uri_base %]/favicon.ico">
     <link rel="stylesheet" href="[% request.uri_base %]/css/bootstrap.css">
     <link rel="stylesheet" href="[% request.uri_base %]/css/style.css" />
@@ -28,10 +29,10 @@
                 <a class="brand" href="#">Toronto Perl Mongers</a>
                 <ul class="nav">
                     <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#meetings">Meetings</a></li>
-                    <li><a href="#contact">Projects</a></li>
-                    <li><a href="#contact">Reviews</a></li>
-                    <li><a href="#contact">Sponsors</a></li>
+                    <li><a href="[% request.uri_base %]/meetings">Meetings</a></li>
+                    <li><a href="[% request.uri_base %]/projects">Projects</a></li>
+                    <li><a href="[% request.uri_base %]/reviews">Reviews</a></li>
+                    <li><a href="[% request.uri_base %]/sponsors">Sponsors</a></li>
                 </ul>
             </div>
         </div>
