@@ -3,8 +3,8 @@ use Dancer ':syntax';
 
 our $VERSION = '0.1';
 
-get '/meetings/:meeting' {
-}
+get '/meetings/:meeting' => sub {
+};
 
 get qr{/meetings/?} => sub {
 	
