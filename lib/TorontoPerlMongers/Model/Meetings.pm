@@ -31,4 +31,9 @@ sub _wanted {
 	$self->meetings([@$meetings, $meeting]);
 }
 
+sub ordered_meetings {
+	my ($self) = @_;
+	return [ sort { $b->details()->datetime()->compare($a->details()->datetime()) } @{$self->meetings()} ];
+}
+
 1;

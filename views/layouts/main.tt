@@ -18,7 +18,7 @@
     <link REL="SHORTCUT ICON" HREF="[% request.uri_base %]/favicon.ico">
     <link rel="stylesheet" href="[% request.uri_base %]/css/bootstrap.css">
     <link rel="stylesheet" href="[% request.uri_base %]/css/style.css" />
-    <script src="[% request.uri_base %]/js/libs/modernizr-2.0.6.min.js"></script>
+    <script src="[% request.uri_base %]/js/modernizr-2.0.6.min.js"></script>
 </head>
 
 <body>
@@ -29,7 +29,7 @@
                 <a class="brand" href="#">Toronto Perl Mongers</a>
                 <ul class="nav">
                     <li class="active"><a href="[% request.uri_base %]/">Home</a></li>
-                    <li><a href="[% request.uri_base %]/meetings">Meetings</a></li>
+                    <li><a href="[% request.uri_base %]/meetings/">Meetings</a></li>
                     <li><a href="[% request.uri_base %]/projects">Projects</a></li>
                     <li><a href="[% request.uri_base %]/reviews">Reviews</a></li>
                     <li><a href="[% request.uri_base %]/people">People</a></li>
