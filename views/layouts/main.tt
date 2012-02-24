@@ -73,7 +73,7 @@
         </div>
     </div>
 
-    <footer>
+    <footer class="pull-left">
         <p>&copy; Toronto Perl Mongers 2012</p>
     </footer>
     

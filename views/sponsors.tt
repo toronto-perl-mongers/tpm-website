@@ -9,85 +9,77 @@
     the contributions are from many sources, including the following:
 </p>
 
+<div class="row-fluid sponsor-row">
+    <div class="pull-left sponsor-logo">
+        <a href="http://www.pm.org/"><img
+            src="/images/perlmongers-2010.png"
+            alt="Perl Mongers logo"
+            width="150" class="pull-left borderless"
+            /></a>
+    </div>
+    <div class="pull-left sponsor-info">
+        <p>
+            First and foremost, we are indebted to several people within
+            our own membership. Largely private contributions enable us to
+            host out-of-town guest speakers.
+        </p>
+        <p style="line-height: 12px;">
+            <small>
+                The use of the camel image in association with the Perl
+                language is a trademark of O'Reilly &amp; Associates, Inc.
+                Used with permission.
+            </small>
+        </p>
+    </div>
+</div>
 
-
-<table border="0" cellpadding="2" cellspacing="2">
-    <tr>
-        <td align="center">
-            <a href="http://www.pm.org/"><img
-                src="/images/perlmongers-2010.png"
-                alt="Perl Mongers logo"
-                width="150" class="borderless"
-                /></a>
-        </td>
-
-        <td>
-            <p>
-          First and foremost, we are indebted to several people within
-          our own membership. Largely private contributions enable us to
-          host out-of-town guest speakers.
-            </p>
-            <p><small>
-            The use of the camel image in association with the Perl
-            language is a trademark of O'Reilly &amp; Associates, Inc.
-            Used with permission.
-          </small></p>
-            <hr />
-        </td>
-
-    </tr>
-    <tr>
-        <td align="center">
-            <a href="http://www.indigostar.com/"><img
-                src="/images/IS-2010.png"
-                alt="Indigo Star logo"
-                width="150" class="borderless"
-                /></a>
-        </td>
-        <td>
-            <p>
+<div class="row-fluid sponsor-row">
+    <div class="pull-left sponsor-logo">
+        <a href="http://www.indigostar.com/"><img
+            src="/images/IS-2010.png"
+            alt="Indigo Star logo"
+            width="150" class="pull-left borderless"
+            /></a>
+    </div>
+    <div class="pull-left sponsor-info">
+        <p>
             IndigoStar software, for donating our virtual facilities, and
             a variety of other sponsorships; as well, we want to express
             our thanks for his excellent Microsoft Windows build of Perl at
             <a href="http://www.indigostar.com/indigoperl.htm">IndigoPerl</a>
+        </p>
+    </div>
+</div>
 
-            </p>
-            <hr />
-        </td>
-    </tr>
-    <tr>
-        <td align="center">
-            <a href="http://www.globalknowledge.ca/"><img
-                src="/images/gk_logo.gif"
-                alt="Global Knowledge logo"
-                width="150" class="borderless"
-                /></a>
-        </td>
-        <td>
-
-            <p>
+<div class="row-fluid sponsor-row">
+    <div class="pull-left sponsor-logo">
+        <a href="http://www.globalknowledge.ca/"><img
+            src="/images/gk_logo.gif"
+            alt="Global Knowledge logo"
+            width="150" class="pull-left borderless"
+            /></a>
+    </div>
+    <div class="pull-left sponsor-info">
+        <p>
             Global Knowledge, and in particular Scott Williams, for hosting our monthly
             fleshware meetings.
-            </p>
-            <hr />
-        </td>
-    </tr>
-<tr>
-        <td align="center">
-            <a href="http://www.oreilly.com/"><img
-                alt="This User Group sponsored by O'Reilly"
-                src="/images/ug_ad_125_camel.gif"
-                width="125" height="125"
-                class="borderless"
-                /></a>
+        </p>
+    </div>
+</div>
 
-        </td>
-        <td>
-            <p>
+<div class="row-fluid sponsor-row">
+    <div class="pull-left sponsor-logo">
+        <a href="http://www.oreilly.com/"><img
+            alt="This User Group sponsored by O'Reilly"
+            src="/images/ug_ad_125_camel.gif"
+            width="125" height="125"
+            class="pull-left borderless"
+            /></a>
+    </div>
+    <div class="pull-left sponsor-info">
+        <p>
             The O'Reilly User Group Program for ongoing donations of Perl
             materials for our membership, and to our individual members.
-            </p>
-            <hr />
-        </td>
-</tr>
-</table>
+        </p>
+    </div>
+</div>

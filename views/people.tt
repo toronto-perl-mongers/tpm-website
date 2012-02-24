@@ -2,44 +2,42 @@
 [% META page_title = 'Local Mongers' %]
 [% META page_info = 'Here are some of the Mongers you might bump into at our regular meetings' %]
 
-<ul>
-    <li>
-        Olaf Alders
-        <ul>
-            <li><a href="https://metacpan.org/author/OALDERS">metacpan.org/author/OALDERS</a></li>
-            <li><a href="http://blogs.perl.org/users/olaf_alders/">blogs.perl.org/users/olaf_alders/</a></li>
-            <li><a href="http://twitter.com/wundercounter">twitter.com/wundercounter</a></li>
-        </ul>
-    </li>
-    <li>
-       Dave Doyle
-        <ul>
-            <li><a href="http://twitter.com/meraxes">twitter.com/meraxes</a></li>
-        </ul>
-    </li>
-   <li>
-       Mark Jubenville
-        <ul>
-            <li><a href="https://metacpan.org/author/IONCACHE">metacpan.org/author/IONCACHE</a></li>
-            <li><a href="http://twitter.com/ioncache">twitter.com/ioncache</a></li>
-        </ul>
-    </li>
-    <li>
-       Jim Keenan
-        <ul>
-            <li><a href="http://thenceforward.net/perl">thenceforward.net/perl</a></li>
-        </ul>
-    </li>
-    <li>
-        Mike Stok
-        <ul>
-            <li><a href="http://www.stok.ca/~mike">www.stok.ca/~mike</a></li>
-        </ul>
-    </li>
-    <li>
-        Stuart Watt
-        <ul>
-            <li><a href="http://twitter.com/morungos">twitter.com/morungos</a></li>
-        </ul>
-    </li>
-</ul>
+<div class="people-container">
+    <span class="label label-info">Olaf Alders</span>
+    <ul>
+        <li><a href="https://metacpan.org/author/OALDERS">metacpan.org/author/OALDERS</a></li>
+        <li><a href="http://blogs.perl.org/users/olaf_alders/">blogs.perl.org/users/olaf_alders/</a></li>
+        <li><a href="http://twitter.com/wundercounter">twitter.com/wundercounter</a></li>
+    </ul>
+</div>
+<div class="people-container">
+   <span class="label label-info">Dave Doyle</span>
+    <ul>
+        <li><a href="http://twitter.com/meraxes">twitter.com/meraxes</a></li>
+    </ul>
+</div>
+<div class="people-container">
+   <span class="label label-info">Mark Jubenville</span>
+    <ul>
+        <li><a href="https://metacpan.org/author/IONCACHE">metacpan.org/author/IONCACHE</a></li>
+        <li><a href="http://twitter.com/ioncache">twitter.com/ioncache</a></li>
+    </ul>
+</div>
+<div class="people-container">
+   <span class="label label-info">Jim Keenan</span>
+    <ul>
+        <li><a href="http://thenceforward.net/perl">thenceforward.net/perl</a></li>
+    </ul>
+</div>
+<div class="people-container">
+    <span class="label label-info">Mike Stok</span>
+    <ul>
+        <li><a href="http://www.stok.ca/~mike">www.stok.ca/~mike</a></li>
+    </ul>
+</div>
+<div class="people-container">
+    <span class="label label-info">Stuart Watt</span>
+    <ul>
+        <li><a href="http://twitter.com/morungos">twitter.com/morungos</a></li>
+    </ul>
+<div>

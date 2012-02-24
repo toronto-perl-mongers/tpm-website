@@ -1,14 +1,30 @@
 [% META menu_section = 'projects' %]
 [% META page_title = 'Projects' %]
 [% META page_info = 'Find various projects which the Toronto Perl Mongers are involved with.' %]
-<ul>
-    <li>
-        <a href="http://github.com/Freshwater-Perl/Freshwater-Planning/wiki">Freshwater::Perl</a> - a Perl workshop in Toronto.
-    </li>
-    <li>
-        <a href="http://github.com/CPAN-API/cpan-api/wiki">CPAN API</a> - provide an API to CPAN.
-    </li>
-    <li>
-        <a href="http://github.com/mikestok/tpm-webpage-generator">TPM site generator</a> - used to generate this site.
-    </li>
-</ul>
+
+<div class="pull-left meetings-row">
+	<div class="pull-left meetings-date">
+		<a href="http://github.com/Freshwater-Perl/Freshwater-Planning/wiki" class="label label-info">Freshwater::Perl</a>
+	</div>
+	<div class="pull-left meetings-label">
+		A Perl workshop in Toronto.
+	</div>
+</div>
+
+<div class="pull-left meetings-row">
+	<div class="pull-left meetings-date">
+		<a href="http://github.com/CPAN-API/cpan-api/wiki" class="label label-info">CPAN API</a>
+	</div>
+	<div class="pull-left meetings-label">
+		Provide an API to CPAN.
+	</div>
+</div>
+
+<div class="pull-left meetings-row">
+	<div class="pull-left meetings-date">
+		<a href="http://github.com/mikestok/tpm-webpage-generator" class="label label-info">TPM site generator</a>
+	</div>
+	<div class="pull-left meetings-label">
+		Used to generate this site.
+	</div>
+</div>
