@@ -1,0 +1,15 @@
+# .gitignore for tpm-website
+#
+# Ignore patch- and backup-related stuff
+*.rej
+*.orig
+*.patch
+*.diff
+*.bak
+*.old
+*.tmp
+
+# Files and directories to be ignored
+/Makefile
+/blib
+/cover_db
