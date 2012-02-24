@@ -27,7 +27,7 @@ get qr{/meetings/?} => sub {
 };	
 
 get '/' => sub {
-    template 'index';
+    template 'index', { meetings => $meetings };
 };
 
 true;

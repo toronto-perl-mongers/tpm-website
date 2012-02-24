@@ -3,14 +3,14 @@
 <div id="page-content">
 [% FOREACH meeting IN meetings.ordered_meetings() %]
 
-	<ul>
 		<li>
 			<a href="[% meeting.id %]">
 			[% meeting.details.datetime.strftime('%d %B %Y') %] - [% meeting.label %]
 			</a>
 		</li>
-	</ul>
 
 [% END %]
+
+	</ul>
 
 </div>
