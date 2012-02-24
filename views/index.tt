@@ -2,3 +2,13 @@
 [% META page_info = '' %]
 
 <p>The Toronto Perl Mongers is a group of Perl programmers and hackers of all levels who get together to talk about Perl. Perl is a programming language which can be used for a large variety of tasks. A typical simple use of Perl would be for extracting information from a text file and printing out a report or for converting a text file into another form. But Perl provides a large number of tools for quite complicated problems, including systems programming and scientific research.</p>
+
+<h2>Location</h2>
+<p>
+    Meetings are held at 2 Bloor St. West on the last Thursday of each month.
+    The space has been kindly donated by <a href="http://www.globalknowledge.ca/">
+    Global Knowledge</a>.
+</p>
+<p>
+    <iframe width="600" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=2+Bloor+St.+West,+Toronto,+ON&amp;ie=UTF8&amp;hq=&amp;hnear=2+Bloor+St+W,+Toronto,+Ontario+M4W+3E2,+Canada&amp;ll=43.67033,-79.387232&amp;spn=0.012867,0.027874&amp;t=m&amp;z=14&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?q=2+Bloor+St.+West,+Toronto,+ON&amp;ie=UTF8&amp;hq=&amp;hnear=2+Bloor+St+W,+Toronto,+Ontario+M4W+3E2,+Canada&amp;ll=43.67033,-79.387232&amp;spn=0.012867,0.027874&amp;t=m&amp;z=14&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</p>
