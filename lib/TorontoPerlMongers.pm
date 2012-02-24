@@ -15,18 +15,20 @@ get qr{/feed/?} => sub {
     # template('meeting', { meeting => $_ }, { layout  => undef } )
     # title, link, summary, content, author, issued and modified
     my $feed = create_feed(
-        entries => map {
-            +{
-                link   => uri_for( '/meetings/' . $_->id() ),
-                issued => $_->details()->datetime
-                ? $_->details()->datetime
-                : '',
-                title   => $_->label(),
-                content => template(
-                    'meeting', { meeting => $_, hide_layout => undef }
-                ),
-              }
-          } @{ $meetings->ordered_meetings() }
+        entries => [
+            map {
+                +{
+                    link   => uri_for( '/meetings/' . $_->id() ),
+                    issued => $_->details()->datetime
+                    ? $_->details()->datetime
+                    : '',
+                    title   => $_->label(),
+                    content => template(
+                        'meeting', { meeting => $_, hide_layout => undef }
+                    ),
+                  }
+              } @{ $meetings->ordered_meetings() }
+        ]
     );
     return $feed;
 };
@@ -44,9 +46,10 @@ get qr{/meetings/?} => sub {
 
 get '/' => sub {
     my $meeting = $meetings->ordered_meetings->[0];
-    my $next_or_last = DateTime->compare($meeting->details->datetime, DateTime->now) <= 0
-                     ? 'Last'
-                     : 'Next';
+    my $next_or_last =
+      DateTime->compare( $meeting->details->datetime, DateTime->now ) <= 0
+      ? 'Last'
+      : 'Next';
     template 'index', { meeting => $meeting, next_or_last => $next_or_last };
 };
 
