@@ -10,6 +10,9 @@ use XML::Simple;
 use TorontoPerlMongers::Model::Details;
 use TorontoPerlMongers::Model::Talk;
 
+my $id = 1;
+
+has 'id' => ( isa => 'Int', is => 'rw' );
 has 'details' => ( isa => 'TorontoPerlMongers::Model::Details', is => 'rw' );
 has 'talks' => ( isa => 'ArrayRef[TorontoPerlMongers::Model::Talk]', is => 'rw' );
 
@@ -17,6 +20,7 @@ sub load {
 	my ($self, $file) = @_;
 	
 	print STDERR "$file\n";
+	$self->id($id++);
 
 	my $xs = XML::Simple->new(ForceArray => 1);
 	
@@ -37,8 +41,17 @@ sub load {
 	foreach my $talk_data (@{$data->{talk}}) {
 		my $talk = TorontoPerlMongers::Model::Talk->new();
 		$talk->load_data($formatter, $talk_data);
+		push @talks, $talk;
 	}
 	$self->talks(\@talks);	
+}
+
+# Generate a useful label, either from the details or from the talks
+
+sub label {
+	my ($self) = @_;
+	
+	return $self->details()->topic() || join(", ", map { $_->title()} @{$self->talks()});
 }
 
 1;

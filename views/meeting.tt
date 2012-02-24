@@ -1,0 +1,27 @@
+<div id="page-content">
+
+    <center>
+    	<h1>[% meeting.details.datetime.strftime('%d %B %Y') %] - [% meeting.label %]
+    
+    	</h1>
+    </center>
+    
+    <ul>
+    	<li><b>Topic: </b>[% meeting.label %]</li>
+    	<li><b>Venue: </b>[% meeting.details.venue %]</li>
+    	<li><b>Time: </b>[% meeting.details.datetime.strftime('%H:%M') %]</li>
+    </ul>
+    
+[% IF meeting.details.synopsis %]
+	<p><b>Synopsis: </b>[% meeting.details.synopsis %]</p>
+[% END %]
+
+[% FOREACH talk IN meeting.talks %]
+	<div>
+		<p><b>[% talk.speaker %]</b></p>
+		<p><b>[% talk.title %]</b></p>
+		<p>[% talk.description %]</p>
+	</div>
+[% END %]
+
+</div>
