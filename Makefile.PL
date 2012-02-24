@@ -20,6 +20,7 @@ WriteMakefile(
         'Dancer::Template::Alloy'       => 0,
         'Moose'                         => 0,
         'XML::Simple'                   => 0,
+		'DateTime'						=> 0,
         'DateTime::Format::ISO8601'     => 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
