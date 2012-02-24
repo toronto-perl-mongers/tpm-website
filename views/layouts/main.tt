@@ -41,19 +41,17 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <div class="page-header">
+        <h1>[% template.page_name %] <small>[% template.page_info %]</small></h1>
+    </div>
 
-        <div class="content">
-            <div class="page-header">
-                <h1>[% template.page_name %] <small>[% template.page_info %]</small></h1>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="sidebar span2" style="float: right; width: 200px;">
+                <img src="[% request.uri_base %]/images/logo.png" style="width: 200px;" />
             </div>
-            <div class="row">
-                <div class="span10">
-                    <div style="float: left; padding: 20px;">[% content %]</div>
-                </div>
-                <div class="span4">
-                    <img src="[% request.uri_base %]/images/logo.png" style="width: 200px; />"
-                </div>
+            <div class="content">
+                <div style="float: left; padding: 20px;">[% content %]</div>
             </div>
         </div>
 
