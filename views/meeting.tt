@@ -1,3 +1,5 @@
+[% META page_name = 'Meeting Details' %]
+[% META page_info = '' %]
 <div id="page-content">
 
     <center>
