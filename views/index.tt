@@ -7,7 +7,7 @@
 
 	<ul>
 		<li>
-			<a href="[% meeting.id %]">
+			<a href="/meetings/[% meeting.id %]">
 			[% meeting.details.datetime.strftime('%d %B %Y') %] - [% meeting.label %]
 			</a>
 		</li>
