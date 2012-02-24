@@ -4,6 +4,7 @@ use Dancer::Plugin::Feed;
 
 our $VERSION = '0.1';
 
+use DateTime;
 use TorontoPerlMongers::Model::Meetings;
 
 my $meetings = TorontoPerlMongers::Model::Meetings->new();
@@ -42,7 +43,11 @@ get qr{/meetings/?} => sub {
 };
 
 get '/' => sub {
-    template 'index', { meetings => $meetings };
+    my $meeting = $meetings->ordered_meetings->[0];
+    my $next_or_last = DateTime->compare($meeting->details->datetime, DateTime->now) <= 0
+                     ? 'Last'
+                     : 'Next';
+    template 'index', { meeting => $meeting, next_or_last => $next_or_last };
 };
 
 true;
