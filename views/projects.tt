@@ -1,16 +1,14 @@
-[% META page_name = 'Projects' %]
-[% META page_info = 'This page is used to provide links to various projects which the Toronto Perl Mongers are active in.' %]
-<div id="page-content">
- <ul>
-  <li>
-  <a href="http://github.com/Freshwater-Perl/Freshwater-Planning/wiki">Freshwater::Perl</a> - a Perl workshop in Toronto.
-  </li>
-  <li>
-  <a href="http://github.com/CPAN-API/cpan-api/wiki">CPAN API</a> - provide an API to CPAN.
-  </li>
-
-  <li>
-  <a href="http://github.com/mikestok/tpm-webpage-generator">TPM site generator</a> - used to generate this site.
-  </li>
- </ul>
-</div>
+[% META menu_section = 'projects' %]
+[% META page_title = 'Projects' %]
+[% META page_info = 'Find various projects which the Toronto Perl Mongers are involved with.' %]
+<ul>
+    <li>
+        <a href="http://github.com/Freshwater-Perl/Freshwater-Planning/wiki">Freshwater::Perl</a> - a Perl workshop in Toronto.
+    </li>
+    <li>
+        <a href="http://github.com/CPAN-API/cpan-api/wiki">CPAN API</a> - provide an API to CPAN.
+    </li>
+    <li>
+        <a href="http://github.com/mikestok/tpm-webpage-generator">TPM site generator</a> - used to generate this site.
+    </li>
+</ul>

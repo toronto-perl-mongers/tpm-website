@@ -1,32 +1,43 @@
-[% META page_name = 'Meeting Details' %]
+[% META menu_section = 'meetings' %]
+[% META page_title = 'Meeting Details' %]
 [% META page_info = '' %]
-<div id="page-content">
 
-    <center>
-    	<h1>[% meeting.details.datetime.strftime('%d %B %Y') %] - [% meeting.label %]
-    
-    	</h1>
-    </center>
-    
-    <ul>
-    	<li><b>Topic: </b>[% meeting.label %]</li>
-    	<li><b>Venue: </b>[% meeting.details.venue %]</li>
-    	<li><b>Time: </b>[% meeting.details.datetime.strftime('%H:%M') %]</li>
-[% IF meeting.details.moderator %]
-	    <li><b>Moderator: </b>[% meeting.details.moderator %]</li>
-[% END %]
-    </ul>
-    
-[% IF meeting.details.synopsis %]
-	<p><b>Synopsis: </b>[% meeting.details.synopsis %]</p>
-[% END %]
+<div class="meeting-date">[% meeting.details.datetime.strftime('%d %B %Y') %]</div>
+<div class="meeting-label">[% meeting.label %]</div>
 
-[% FOREACH talk IN meeting.talks %]
-	<div>
-		<p><b>[% talk.speaker %]</b></p>
-		<p><b>[% talk.title %]</b></p>
-		<p>[% talk.description %]</p>
-	</div>
-[% END %]
+<div style="width: 100%;">
+<div class="pull-left alert alert-info meeting-details">
+	<div class="pull-left section">Topic</div>
+	<div class="pull-right info">[% meeting.label %]</div>
 
+	<div class="pull-left section">Venue</div>
+	<div class="pull-right info">[% meeting.details.venue %]</div>
+
+	<div class="pull-left section">Time</div>
+	<div class="pull-right info">[% meeting.details.datetime.strftime('%H:%M') %]</div>
+
+	[%- IF meeting.details.moderator %]
+	<div class="pull-left section">Moderator</div>
+	<div class="pull-right info">[% meeting.details.moderator %]</div>
+	[%- END %]
 </div>
+</div>
+
+[%- IF meeting.details.synopsis %]
+<div class="pull-left meeting-synopsis">
+	<div style="margin-bottom: 10px;">
+		<span class="label">Synopsis</span>
+	</div>
+	<div>	
+		[% meeting.details.synopsis %]
+	</div>
+</div>
+[%- END %]
+
+[%- FOREACH talk IN meeting.talks %]
+<div>
+	<div class="pull-left meeting-talk-title">[% talk.title %]</div>
+	<div class="pull-right label label-info">[% talk.speaker %]</div>
+	<div class="pull-left meeting-talk-description">[% talk.description %]</div>
+</div>
+[%- END %]
