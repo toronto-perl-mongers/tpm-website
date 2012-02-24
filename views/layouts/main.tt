@@ -55,7 +55,9 @@
                 <img src="[% request.uri_base %]/images/logo.png" style="width: 200px;" />
             </div>
             <div class="content">
-                <div style="float: left; padding: 20px;">[% content %]</div>
+                <div class="hero-unit">
+                    [% content %]
+                </div>
             </div>
         </div>
 
