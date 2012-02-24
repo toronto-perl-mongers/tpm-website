@@ -1,3 +1,6 @@
+[% UNLESS layout %]
+    [% content %]
+[% ELSE %]
 <!DOCTYPE html>
 
 <html>
@@ -35,6 +38,7 @@
                         <li><a href="[% request.uri_base %]/reviews">Reviews</a></li>
                         <li><a href="[% request.uri_base %]/people">People</a></li>
                         <li><a href="[% request.uri_base %]/sponsors">Sponsors</a></li>
+                        <li><a href="[% request.uri_base %]/contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -76,3 +80,4 @@
 
 </body>
 </html>
+[% END %]

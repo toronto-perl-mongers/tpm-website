@@ -1,9 +1,6 @@
+[% META page_name = 'Projects' %]
+[% META page_info = 'This page is used to provide links to various projects which the Toronto Perl Mongers are active in.' %]
 <div id="page-content">
- <p>
-
- This page is used to provide links to various projects which the Toronto
- Perl Mongers are active in.
- </p>
  <ul>
   <li>
   <a href="http://github.com/Freshwater-Perl/Freshwater-Planning/wiki">Freshwater::Perl</a> - a Perl workshop in Toronto.

@@ -11,10 +11,20 @@ my $meetings = TorontoPerlMongers::Model::Meetings->new();
 $meetings->load("data/meetings");
 
 get qr{/feed/?} => sub {
-    my $feed = create_feed(	
-        entries => [],
+    # template('meeting', { meeting => $_ }, { layout  => undef } )
+    # title, link, summary, content, author, issued and modified
+    my @x = map { +{
+                      link    => uri_for( '/meetings/' . $_->id() ),
+                      issued  => $_->details()->datetime ? $_->details()->datetime : '',
+                      title   => $_->label(),
+                      content => template('meeting', { meeting => $_, layout => undef }),
+                  } } @{ $meetings->meetings() };
+
+    my $feed = create_feed(
+         entries => \@x,
+
     );
-    return $feed;	
+    return $feed;
 };
 
 get '/meetings/:meeting' => sub {
@@ -25,7 +35,7 @@ get '/meetings/:meeting' => sub {
 
 get qr{/meetings/?} => sub {
     template 'meetings', { meetings => $meetings };
-};	
+};
 
 get '/' => sub {
     my $meeting = $meetings->ordered_meetings->[0];

@@ -1,7 +1,6 @@
+[% META page_name = 'Reviews' %]
+[% META page_info = 'From time to time members of the Toronto Perl Mongers review things.' %]
 <div id="page-content">
-<p>
-  From time to time members of the Toronto Perl Mongers review things.
- </p>
  <ul>
   <li>
    <a href="reviews/alan-camel.html">Alan Rocker's July 2010 review of Programming Perl 3<sup>rd</sup> Edition</a>
