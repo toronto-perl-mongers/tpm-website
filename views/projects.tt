@@ -4,19 +4,19 @@
 
 <div class="pull-left meetings-row">
 	<div class="pull-left meetings-date">
-		<a href="http://github.com/Freshwater-Perl/Freshwater-Planning/wiki" class="label label-info">Freshwater::Perl</a>
+		<a href="http://github.com/CPAN-API/cpan-api/wiki" class="label label-info">CPAN API</a>
 	</div>
 	<div class="pull-left meetings-label">
-		A Perl workshop in Toronto.
+		Provide an API to CPAN.
 	</div>
 </div>
 
 <div class="pull-left meetings-row">
 	<div class="pull-left meetings-date">
-		<a href="http://github.com/CPAN-API/cpan-api/wiki" class="label label-info">CPAN API</a>
+		<a href="http://github.com/Freshwater-Perl/Freshwater-Planning/wiki" class="label label-info">Freshwater::Perl</a>
 	</div>
 	<div class="pull-left meetings-label">
-		Provide an API to CPAN.
+		A Perl workshop in Toronto.
 	</div>
 </div>
 

@@ -2,14 +2,14 @@
 [% META page_title = 'Sponsors' %]
 [% META page_info = '' %]
 
-<p>
+<p class="row-separator">
     The Toronto Perl Mongers does not collect membership dues.
     We are, thus, dependant on &quot;the kindness of
     strangers&quot;; OK, not &quot;strangers&quot;, but 
     the contributions are from many sources, including the following:
 </p>
 
-<div class="row-fluid sponsor-row">
+<div class="row-fluid row-separator">
     <div class="pull-left sponsor-logo">
         <a href="http://www.pm.org/"><img
             src="/images/perlmongers-2010.png"
@@ -33,7 +33,7 @@
     </div>
 </div>
 
-<div class="row-fluid sponsor-row">
+<div class="row-fluid row-separator">
     <div class="pull-left sponsor-logo">
         <a href="http://www.indigostar.com/"><img
             src="/images/IS-2010.png"
@@ -51,7 +51,7 @@
     </div>
 </div>
 
-<div class="row-fluid sponsor-row">
+<div class="row-fluid row-separator">
     <div class="pull-left sponsor-logo">
         <a href="http://www.globalknowledge.ca/"><img
             src="/images/gk_logo.gif"
@@ -67,7 +67,7 @@
     </div>
 </div>
 
-<div class="row-fluid sponsor-row">
+<div class="row-fluid row-separator">
     <div class="pull-left sponsor-logo">
         <a href="http://www.oreilly.com/"><img
             alt="This User Group sponsored by O'Reilly"
