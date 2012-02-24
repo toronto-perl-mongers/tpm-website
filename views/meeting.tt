@@ -10,6 +10,9 @@
     	<li><b>Topic: </b>[% meeting.label %]</li>
     	<li><b>Venue: </b>[% meeting.details.venue %]</li>
     	<li><b>Time: </b>[% meeting.details.datetime.strftime('%H:%M') %]</li>
+[% IF meeting.details.moderator %]
+	    <li><b>Moderator: </b>[% meeting.details.moderator %]</li>
+[% END %]
     </ul>
     
 [% IF meeting.details.synopsis %]

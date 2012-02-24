@@ -26,44 +26,45 @@
 
 <body>
 
-    <div class="topbar">
-        <div class="fill">
-            <div class="container">
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container-fluid">
                 <a class="brand" href="#">Toronto Perl Mongers</a>
-                <ul class="nav">
-                    <li class="active"><a href="[% request.uri_base %]/">Home</a></li>
-                    <li><a href="[% request.uri_base %]/meetings/">Meetings</a></li>
-                    <li><a href="[% request.uri_base %]/projects">Projects</a></li>
-                    <li><a href="[% request.uri_base %]/reviews">Reviews</a></li>
-                    <li><a href="[% request.uri_base %]/people">People</a></li>
-                    <li><a href="[% request.uri_base %]/sponsors">Sponsors</a></li>
-                </ul>
+                <div class="nav-collapse">
+                    <ul class="nav">
+                        <li class="active"><a href="[% request.uri_base %]/">Home</a></li>
+                        <li><a href="[% request.uri_base %]/meetings/">Meetings</a></li>
+                        <li><a href="[% request.uri_base %]/projects">Projects</a></li>
+                        <li><a href="[% request.uri_base %]/reviews">Reviews</a></li>
+                        <li><a href="[% request.uri_base %]/people">People</a></li>
+                        <li><a href="[% request.uri_base %]/sponsors">Sponsors</a></li>
+                        <li><a href="[% request.uri_base %]/contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="container">
+    <div class="page-header">
+        <h1>[% template.page_name %] <small>[% template.page_info %]</small></h1>
+    </div>
 
-        <div class="content">
-            <div class="page-header">
-                <h1>[% template.page_name %] <small>[% template.page_info %]</small></h1>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="sidebar span2" style="float: right; width: 200px;">
+                <img src="[% request.uri_base %]/images/logo.png" style="width: 200px;" />
             </div>
-            <div class="row">
-                <div class="span10">
-                    [% content %]
-                </div>
-                <div class="span4">
-                    <img src="[% request.uri_base %]/images/logo.png" style="width: 200px; />"
-                </div>
+            <div class="content">
+                <div style="float: left; padding: 20px;">[% content %]</div>
             </div>
         </div>
-  
+
         <footer>
             <p>&copy; Toronto Perl Mongers 2011</p>
         </footer>
 
-    </div> <!-- /container -->
-    
+    </div>
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
     <script type="text/javascript">/* <![CDATA[ */
     !window.jQuery && document.write('<script type="text/javascript" src="[% request.uri_base %]/javascripts/jquery.js"><\/script>')
