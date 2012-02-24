@@ -1,10 +1,6 @@
+[% META page_name = 'Local Mongers' %]
+[% META page_info = 'Here are some of the Mongers you might bump into at our regular meetings' %]
 <div id="page-content">
-
-    <center><h1>Local Mongers</h1></center>
-
-    <p>
-    Here are some of the Mongers you might bump into at our regular meetings:
-    </p>
 
     <ul>
         <li>

@@ -1,11 +1,6 @@
+[% META page_name = 'Meetings' %]
+[% META page_info = '' %]
 <div id="page-content">
-
-    <center><h1>Local Mongers</h1></center>
-
-    <p>
-    Here are some of the Mongers you might bump into at our regular meetings:
-    </p>
-    
 [% FOREACH meeting IN meetings.ordered_meetings() %]
 
 	<ul>
