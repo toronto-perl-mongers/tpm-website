@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Perl Test Testing &amp; TPM Web Page Update Hackathon (II)</topic>
+    <datetime>2012-02-23T18:45</datetime>
+    <venue>Global Knowledge (Classroom B)</venue>
+  </details>
+  <talk>
+    <speaker>Jim Keenan</speaker>
+    <title>Perl Test Testing - Talk Preview</title>
+    <description>
+      <p>Jim's in Toronto this week, so it is an opportunity for him to 
+      road-test his talk on Perl test testing which he's giving at the 
+      DC-Baltimore Perl Workshop later this year.</p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Olaf Alders</speaker>
+    <title>TPM Web Page Hackathon (II)</title>
+    <description>
+      <p>Part 2 of the hackathon to re-work the Toronto Perl Mongers web site</p>
+    </description>
+  </talk>
+</meeting>

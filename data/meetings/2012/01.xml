@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Bundling Perl, Database, and Web components</topic>
+    <datetime>2012-01-26T18:45</datetime>
+    <venue>Global Knowledge (room D)</venue>
+    <moderator>Alan Rocker</moderator>
+    <synopsis>
+      <p>We have an old web app running using Apache, Perl and Mysql on 
+      Windows - the development server. We have a client that can't always get 
+      internet access in meetings and is hoping we can find a way to "bundle" 
+      the app for easy install on local computers. Setting the app up takes 
+      a few minutes - install Perl, install the modules, install mysql, 
+      install Apache, configure the local server. Is there some way to send
+      a DVD to someone so they can click and install?</p>
+    </synopsis>
+  </details>
+</meeting>
