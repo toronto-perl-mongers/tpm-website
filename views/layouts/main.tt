@@ -1,3 +1,6 @@
+[% UNLESS layout %]
+    [% content %]
+[% ELSE %]
 <!DOCTYPE html>
 
 <html>
@@ -76,3 +79,4 @@
 
 </body>
 </html>
+[% END %]

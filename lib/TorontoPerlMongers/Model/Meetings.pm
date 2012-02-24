@@ -23,10 +23,10 @@ sub load {
 
 sub _wanted {
 	my ($self, $file) = @_;
-	
+
 	my $meeting = TorontoPerlMongers::Model::Meeting->new();
 	$meeting->load($file);
-	
+
 	my $meetings = $self->meetings() // [];
 	$self->meetings([@$meetings, $meeting]);
 }
