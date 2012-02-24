@@ -1,4 +1,4 @@
-[% UNLESS layout %]
+[% IF hide_layout %]
     [% content %]
 [% ELSE %]
 <!DOCTYPE html>

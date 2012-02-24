@@ -6,3 +6,4 @@
 /images/perldancer-bg.jpg
 /images/perldancer.jpg
 /javascripts/jquery.js
+/feed
