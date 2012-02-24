@@ -8,6 +8,8 @@
     Meetings are held at 2 Bloor St. West on the last Thursday of each month.
 </p>
 <p>
-    <a href="http://g.co/maps/f3uwp">See it on Google Maps</a><br />
-    <img src="[% request.uri_base %]/images/tpm-map.png" align="center" style="padding: 10px; border: none;" />
+    <a href="http://g.co/maps/f3uwp">See it on Google Maps</a>
+</p>
+<p style='text-align: center;'>
+    <a href="http://g.co/maps/f3uwp"><img src="[% request.uri_base %]/images/tpm-map.png" style="padding: 10px; border: none;" /></a>
 </p>
