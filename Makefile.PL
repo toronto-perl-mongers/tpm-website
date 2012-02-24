@@ -13,6 +13,7 @@ WriteMakefile(
     PL_FILES            => {},
     PREREQ_PM => {
         'Test::More' 			        => 0,
+            'Plack'                     => 0.9974,
         'YAML'       			        => 0,
         'Dancer'     			        => 1.3080,
         'Dancer::Plugin::Feed'          => 0,
