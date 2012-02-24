@@ -2,3 +2,12 @@
 [% META page_info = '' %]
 
 <p>The Toronto Perl Mongers is a group of Perl programmers and hackers of all levels who get together to talk about Perl. Perl is a programming language which can be used for a large variety of tasks. A typical simple use of Perl would be for extracting information from a text file and printing out a report or for converting a text file into another form. But Perl provides a large number of tools for quite complicated problems, including systems programming and scientific research.</p>
+
+<h2>Location</h2>
+<p>
+    Meetings are held at 2 Bloor St. West on the last Thursday of each month.
+</p>
+<p>
+    <a href="http://g.co/maps/f3uwp">See it on Google Maps</a><br />
+    <img src="[% request.uri_base %]/images/tpm-map.png" align="center" style="padding: 10px; border: none;" />
+</p>
