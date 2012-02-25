@@ -3,12 +3,14 @@
 [% META page_info = '' %]
 
 <div class="meeting-date">[% meeting.details.datetime.strftime('%d %B %Y') %]</div>
-<div class="meeting-label">[% meeting.label %]</div>
+[% UNLESS hide_layout %]<div class="meeting-label">[% meeting.label %]</div>[% END %]
 
 <div style="width: 100%;">
 <div class="pull-left alert alert-info meeting-details">
+[% UNLESS hide_layout %]
 	<div class="pull-left section">Topic</div>
 	<div class="pull-right info">[% meeting.label %]</div>
+[% END %]
 
 	<div class="pull-left section">Venue</div>
 	<div class="pull-right info">[% meeting.details.venue %]</div>

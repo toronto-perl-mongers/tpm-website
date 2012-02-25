@@ -26,7 +26,7 @@ get '/feed/:format' => sub {
                     : '',
                     title   => $_->label(),
                     content => template(
-                        'meeting', { meeting => $_, hide_layout => undef }
+                        'meeting', { meeting => $_, hide_layout => 1 }
                     ),
                   }
               } @{ $meetings->ordered_meetings() }
