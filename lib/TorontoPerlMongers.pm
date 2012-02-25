@@ -10,11 +10,13 @@ use TorontoPerlMongers::Model::Meetings;
 my $meetings = TorontoPerlMongers::Model::Meetings->new();
 $meetings->load("data/meetings");
 
-get qr{/feed/?} => sub {
+get '/feed/:format' => sub {
 
     # template('meeting', { meeting => $_ }, { layout  => undef } )
     # title, link, summary, content, author, issued and modified
     my $feed = create_feed(
+        format  => params->{format},
+        title   => 'Toronto Perl Mongers',
         entries => [
             map {
                 +{
