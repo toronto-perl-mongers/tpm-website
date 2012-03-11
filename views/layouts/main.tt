@@ -61,7 +61,7 @@
         <div class="row-fluid">
             <aside class="sidebar span2" style="float: right;">
                 <div class="well">
-                    <img src="[% request.uri_base %]/images/logo.png" style="width: 200px;" />
+                    <img src="[% request.uri_base %]/images/toronto.skyline.png" style="width: 200px;" />
                     <div class="center-text sidebar-title">Toronto Perl Mongers</div>
                 </div>
             </aside>
