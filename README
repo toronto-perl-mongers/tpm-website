@@ -1,4 +1,6 @@
 This is the repository for Toronto Perl Mongers
 
-To create a static dump of this dancer application run this:
-perl -Ilib bin/wallflower -a TorontoPerlMongers -d /tmp/output urls.txt
+To create a static dump of this dancer application, install
+https://metacpan.org/module/App::Wallflower and then run this:
+
+mkdir -p /tmp/output && wallflower -a bin/app.pl -d /tmp/output -F urls.txt
