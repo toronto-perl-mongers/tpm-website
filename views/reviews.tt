@@ -3,6 +3,6 @@
 [% META page_info = 'From time to time members of the Toronto Perl Mongers review things.' %]
 <ul>
     <li>
-       <a href="reviews/alan-camel.html">Alan Rocker's July 2010 review of Programming Perl 3<sup>rd</sup> Edition</a>
+       <a href="/reviews/alan-camel">Alan Rocker's July 2010 review of Programming Perl 3<sup>rd</sup> Edition</a>
     </li>
 </ul>

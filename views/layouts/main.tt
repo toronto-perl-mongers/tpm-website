@@ -42,11 +42,11 @@
                     <ul class="nav">
                         <li[% IF template.menu_section == 'home' %] class="active"[% END %]><a href="/">Home</a></li>
                         <li[% IF template.menu_section == 'meetings' %] class="active"[% END %]><a href="/meetings/">Meetings</a></li>
-                        <li[% IF template.menu_section == 'projects' %] class="active"[% END %]><a href="/projects">Projects</a></li>
-                        <li[% IF template.menu_section == 'reviews' %] class="active"[% END %]><a href="/reviews">Reviews</a></li>
-                        <li[% IF template.menu_section == 'people' %] class="active"[% END %]><a href="/people">People</a></li>
-                        <li[% IF template.menu_section == 'sponsors' %] class="active"[% END %]><a href="/sponsors">Sponsors</a></li>
-                        <li[% IF template.menu_section == 'contact' %] class="active"[% END %]><a href="/contact">Contact</a></li>
+                        <li[% IF template.menu_section == 'projects' %] class="active"[% END %]><a href="/projects/">Projects</a></li>
+                        <li[% IF template.menu_section == 'reviews' %] class="active"[% END %]><a href="/reviews/">Reviews</a></li>
+                        <li[% IF template.menu_section == 'people' %] class="active"[% END %]><a href="/people/">People</a></li>
+                        <li[% IF template.menu_section == 'sponsors' %] class="active"[% END %]><a href="/sponsors/">Sponsors</a></li>
+                        <li[% IF template.menu_section == 'contact' %] class="active"[% END %]><a href="/contact/">Contact</a></li>
                     </ul>
                 </div>
             </div>

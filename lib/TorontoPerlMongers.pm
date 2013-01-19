@@ -35,7 +35,7 @@ get '/feed/:format' => sub {
     return $feed;
 };
 
-get '/meetings/:meeting' => sub {
+get '/meetings/:meeting/' => sub {
     my $id = params->{meeting};
     my ($meeting) = grep { $_->id() == $id } @{ $meetings->meetings() }
       or die("Can't find meeting: $id");
@@ -54,5 +54,26 @@ get '/' => sub {
       : 'Next';
     template 'index', { meeting => $meeting, next_or_last => $next_or_last };
 };
+
+get '/contact/' => sub {
+    template 'contact';
+};
+
+get '/projects/' => sub {
+    template 'projects';
+};
+
+get '/people/' => sub {
+    template 'people';
+};
+
+get '/reviews/' => sub {
+    template 'reviews';
+};
+
+get '/sponsors/' => sub {
+    template 'sponsors';
+};
+
 
 true;

@@ -10,10 +10,10 @@
 
 <div class="pull-left meetings-row">
     <div class="pull-left meetings-date">
-        <a href="/meetings/[% meeting.id %]" class="label label-info">[% meeting.details.datetime.strftime('%d %B %Y') %]</a>
+        <a href="/meetings/[% meeting.id %]/" class="label label-info">[% meeting.details.datetime.strftime('%d %B %Y') %]</a>
     </div>
     <div class="pull-left meetings-label">
-        <a href="/meetings/[% meeting.id %]">[% meeting.label %]</a>
+        <a href="/meetings/[% meeting.id %]/">[% meeting.label %]</a>
     </div>
 </div>
 
