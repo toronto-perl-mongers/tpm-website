@@ -1,0 +1,82 @@
+  <h1>
+   Programming Perl 3<sup>rd</sup> Edition - Larry Wall, Tom Christiansen &amp; John Orwant 2000
+  </h1>
+  <p>
+   <a href="http://oreilly.com/catalog/9780596000271">http://oreilly.com/catalog/9780596000271</a>
+   <em>Reviewed by Alan Rocker, July 2010</em>
+  </p>
+  <p>
+   A long-time Perl programmer, reviewing the Camel, is in the same
+   situation as a devout Christian reviewing the Old Testament. It's the
+   foundation of the faith, so what do you say? (That's more than a casual
+   analogy, given the number of humourous references to inventories of
+   flocks and lists of the begotten in the first edition's examples; alas
+   largely excised from later versions.) The only text more definitive
+   is the interpreter itself.
+  </p>
+  <p>
+   Actually, the latest edition is more like the Old Testament, the New
+   Testament, and the Apocrypha rolled into one. Like one's friends'
+   begotten, "My, how it's grown"!  Perl may be highly portable, but
+   Camel III is just barely. It could use wheels and a handle for towing.
+  </p>
+  <p>
+   The Pink Camel <a
+   href="http://oreilly.com/catalog/9780937175644/">http://oreilly.com/catalog/9780937175644/</a>
+   ran to 465 pages when it was published in 1991. Despite the pruning
+   of the Biblical jokes, the 1996 second edition, (the Blue Camel), <a
+   href="http://oreilly.com/catalog/9781565921498/">http://oreilly.com/catalog/9781565921498/</a>
+   that introduced Perl 5, had expanded to 645 pages. The latest version
+   comprises 1070 pages; 650 of narrative, and 420 of reference, glossary,
+   &amp; index.
+  </p>
+  <p>
+   The extra size isn't just the result of adding descriptions of new
+   features added between 5.0 and 5.6, the book has experienced a serious
+   restructuring.
+  </p>
+  <p>
+   Its major divisions now are:
+  </p>
+  <ol type="I">
+   <li>Overview (the one-chapter "executive summary" of Perl)</li>
+   <li>The gory details - 14 chapters describing the language in detail</li>
+   <li>Perl as technology   -  7 chapters on internal matters</li>
+   <li>Perl as culture  -  6 chapters on how to write good Perl</li>
+   <li>Reference materials - Detailed descriptions of names, functions and modules</li>
+  </ol>
+  <p>
+   Owners of the second edition may notice that Randall Schwartz
+   no longer credited as a co-author, having been replaced by
+   Jon Orwant, but with the success of the Llama, ("Learning Perl"), <a
+   href="http://oreilly.com/catalog/9780596520113">http://oreilly.com/catalog/9780596520113</a>
+   he probably doesn't mind.
+  </p>
+  <p>
+   2000 is an aeon ago in computing times - that was Before Google,
+   something almost unimaginable today. In Perl terms, it was the era
+   of 5.6. Some of the features just making their way into the language,
+   or touted as Advances Yet To Come, turned out to be Not Terribly Good
+   Ideas, (e.g. threads). The non-trivial advances represented by 5.8,
+   5.10, and now 5.12, obviously are not covered. (And probably won't be;
+   I very much doubt if there will ever be a Fourth Edition, at least
+   on dead trees.)
+  </p>
+  <p>
+   The depth of the material in the 3rd. edition is almost
+   enough to overwhelm the casual scripter. They would
+   probably be better off with the Llama, possibly the "Cookbook", <a
+   href="http://oreilly.com/catalog/9780596003135/">http://oreilly.com/catalog/9780596003135/</a>
+   and "Perl in a Nutshell" <a
+   href="http://oreilly.com/catalog/9780596002411/">http://oreilly.com/catalog/9780596002411/</a>
+   for reference. For the serious Perl programmer, on the other hand,
+   reading the Camel is an essential experience. (For example, while
+   reading it for this review, I learnt about the -I command-line
+   switch. Now I know how to test modules without messing up the site's
+   installed libraries.)
+  </p>
+  <p>
+   If you want to know more about Perl than you thought there was to know,
+   you should have a copy of "Programming Perl". Just buy a lectern on
+   which to read it.
+  </p>
