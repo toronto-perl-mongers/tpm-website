@@ -9,12 +9,12 @@
 <h2 class="heading">[% next_or_last | html %] Meeting</h2>
 
 <div class="pull-left meetings-row">
-	<div class="pull-left meetings-date">
-		<a href="[% request.uri_base %]/meetings/[% meeting.id %]" class="label label-info">[% meeting.details.datetime.strftime('%d %B %Y') %]</a>
-	</div>
-	<div class="pull-left meetings-label">
-		<a href="[% request.uri_base %]/meetings/[% meeting.id %]">[% meeting.label %]</a>
-	</div>
+    <div class="pull-left meetings-date">
+        <a href="/meetings/[% meeting.id %]" class="label label-info">[% meeting.details.datetime.strftime('%d %B %Y') %]</a>
+    </div>
+    <div class="pull-left meetings-label">
+        <a href="/meetings/[% meeting.id %]">[% meeting.label %]</a>
+    </div>
 </div>
 
 <h2 class="heading">Location</h2>
