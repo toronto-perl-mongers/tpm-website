@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+        <details>
+                <topic>Workflows &amp; IDEs</topic>
+                <datetime>2012-04-26T18:45</datetime>
+                <venue>Global Learning (Room C)</venue>
+                <leader label="Emcee">Jordan Tam</leader>
+                <synopsis>
+                        <p>
+                                A number of talks about people's workflows and
+                                preferred IDE.
+                        </p>
+                </synopsis>
+        </details>
+        <talk>
+                <speaker>Jordan Tam</speaker>
+                <title>emacs and cperl-mode</title>
+                <description>
+                        <ul>
+                                <li><a href="http://www.gnu.org/software/emacs/">emacs</a></li>
+                                <li><a href="https://github.com/jrockway/cperl-mode"
+                                                >cperl-mode</a> </li>
+                        </ul>
+                </description>
+        </talk>
+        <talk>
+                <speaker>Matthew Phillips</speaker>
+                <title>dwm, vim (favorite plugins, how I manage them), vimperator</title>
+                <description>
+                        <ul>
+                                <li><a href="http://dwm.suckless.org/">dwm</a></li>
+                                <li><a href="http://www.vim.org">vim</a></li>
+                                <li><a href="http://www.vimperator.org/vimperator"
+                                                >vimperator</a></li>
+                        </ul>
+                </description>
+        </talk>
+        <talk>
+                <speaker>Olaf Alders</speaker>
+                <title><a href="http://mizage.com/divvy/">divvy</a>,
+                        <a href="http://mama.indstate.edu/users/ice/tree/">tree</a>,
+                        <a href="http://mxcl.github.com/homebrew/">homebrew</a>
+                </title>
+                <description>
+                        <ul>
+                                <li><a href="http://mizage.com/divvy/">divvy</a></li>
+                                <li><a href="http://mama.indstate.edu/users/ice/tree/">tree</a></li>
+                                <li><a href="http://mxcl.github.com/homebrew/">homebrew</a></li>
+                        </ul>
+                </description>
+        </talk>
+        <talk>
+                <speaker>Mike Stok</speaker>
+                <title>tmuxinator</title>
+                <description>
+                        <ul>
+                                <li><a href="https://github.com/aziz/tmuxinator">tmuxinator</a></li>
+                        </ul>
+                </description>
+        </talk>
+</meeting>

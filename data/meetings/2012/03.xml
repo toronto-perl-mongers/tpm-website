@@ -1,0 +1,16 @@
+<meeting>
+  <details>
+    <topic>Lift-or-why-don't-we-have-a-proper-view-first-web-framework-in-perl</topic>
+    <datetime>2012-03-29T18:45</datetime>
+    <venue>Global Knowledge (room TBA)</venue>
+  </details>
+  <talk>
+    <speaker>Stuart Watt</speaker>
+    <title>Lift-or-why-don't-we-have-a-proper-view-first-web-framework-in-perl</title>
+    <description>
+      <p>
+        Lift is a Scala web framework.
+      </p>
+    </description>
+  </talk>
+</meeting>

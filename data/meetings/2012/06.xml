@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+        <details>
+                <topic>YAPC:NA Debrief</topic>
+                <datetime>2012-06-28T18:45</datetime>
+                <venue>Global Learning (Room TBA)</venue>
+                <leader label="Emcee">Jordan Tam</leader>
+                <synopsis>
+                        <p>
+                                Reports from YAPC::NA
+                        </p>
+                </synopsis>
+        </details>
+</meeting>

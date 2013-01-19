@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Lightning Talks</topic>
+    <datetime>2012-09-27T18:30</datetime>
+    <venue>Free Times Cafe, 320 College</venue>
+    <leader label="Emcee">Alan Rocker</leader>
+      <synopsis>
+        <p><b>
+          Note the location and time change.  It's 18:30 - 20:15
+          at Free Times Cafe at 320 College Street.
+        </b></p>
+        <p>
+          5 minute talks from a variety of people, on any
+         subject as long as it's tangentially related to Perl.
+        </p>
+  </synopsis>
+  </details>
+  <talk>
+    <speaker>Dave Doyle</speaker>
+    <title>Hierarchies in databases via DBIx::Class</title>
+  </talk>
+  <talk>
+    <speaker>Chris Reuter</speaker>
+    <title>Five cool things about the Deck programming language</title>
+  </talk>
+  <talk>
+    <speaker>Mark Jubenville</speaker>
+    <title>DBIx::Class::AuditLog</title>
+  </talk>
+  <talk>
+    <speaker>Olaf Alders</speaker>
+    <title>HTTP::CookieMonster</title>
+  </talk>
+</meeting>

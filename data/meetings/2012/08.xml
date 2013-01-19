@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+        <details>
+                <topic>Of Beer and Cockroaches</topic>
+                <datetime>2012-08-30T18:45</datetime>
+                <venue>Global Learning (Room TBA)</venue>
+        </details>
+        <talk>
+                <speaker>Stuart Watt</speaker>
+                <title>Windows Stacks</title>
+        </talk>
+        <talk>
+                <speaker>Stuart Watt</speaker>
+                <title>Drunken Cockroach</title>
+        </talk>
+</meeting>

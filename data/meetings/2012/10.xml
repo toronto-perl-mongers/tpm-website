@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+        <details>
+                <topic>Pinto</topic>
+                <datetime>2012-10-25T18:45</datetime>
+                <venue>Global Learning (Room TBA)</venue>
+        </details>
+        <talk>
+                <speaker>Matt Phillips</speaker>
+                <title>Pinto</title>
+        </talk>
+</meeting>

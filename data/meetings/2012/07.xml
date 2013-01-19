@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+        <details>
+                <topic>Misc</topic>
+                <datetime>2012-07-26T18:45</datetime>
+                <venue>Global Learning (Room TBA)</venue>
+                <leader label="Emcee">Jordan Tam</leader>
+                <synopsis>
+                        <p>
+                                Our regular monthly meeting to discuss
+                                things related to Perl.
+                        </p>
+                </synopsis>
+        </details>
+</meeting>

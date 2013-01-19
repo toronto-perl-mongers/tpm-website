@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+        <details>
+                <topic>Various...</topic>
+                <datetime>2012-05-31T18:45</datetime>
+                <venue>Global Learning (Room TBA)</venue>
+                <leader label="Emcee">Jordan Tam</leader>
+                <synopsis>
+                        <p>
+                                Various talks related to Perl.
+                        </p>
+                </synopsis>
+        </details>
+        <talk>
+                <speaker>Olaf Alders</speaker>
+                <title>(Ab)using the MetaCPAN API for Fun and Profit</title>
+                <description>
+                        A chance for Olaf to road-test his 20 minute
+                        <a href="http://act.yapcna.org/2012/talk/139">YAPC::NA
+                                talk</a>.
+                </description>
+        </talk>
+        <talk>
+                <speaker>Matt Phillips</speaker>
+                <title>Carton and CPANFile</title>
+                <description>
+                        <a href="https://metacpan.org/module/Carton">Carton</a>
+                        is a Perl module dependency manager, and 
+                        <a href="https://github.com/miyagawa/cpanfile">cpanfile</a>
+                        which is a way to specify CPAN dependencies.
+                </description>
+        </talk>
+</meeting>
