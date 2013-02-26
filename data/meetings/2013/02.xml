@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Challenging Pure Perl Object - Multi-D</topic>
+    <datetime>2013-02-28T18:45</datetime>
+    <venue>Global Knowledge (Classroom B)</venue>
+  </details>
+  <talk>
+    <speaker>Christopher Jones</speaker>
+    <title>Challenging Pure Perl Object - Multi-D</title>
+    <description>
+
+      <p>
+        A Perl Object Oriented Program to model a multi-dimension matrix.
+      </p>
+
+      <p>
+        We have developed Perl Object, Multi-D, control a 2-d matrix model to
+        represent the same 3-d system.
+      </p>
+
+      <p>
+        It is as simple as that.   I know all the math, I know the complete
+        structure of the Object.  I know all the inputs and outputs to each
+        object within the object right down to the base object and how it all
+        interrelates to product the same output object.  I also know the
+        complete structure of the output object and how all its tiny little
+        objects represent all the tiny little objects in the input Object.  So
+        in essence, I have a fairly good understanding of the object.  And I
+        have it all laid out and named and what each object represents in 10
+        files.  Text files all object oriented.  I need the Object Multi-D to
+        first read these files to create itself.
+       </p>
+
+    </description>
+  </talk>
+</meeting>
