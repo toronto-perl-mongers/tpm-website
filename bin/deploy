@@ -1,0 +1,7 @@
+#!/bin/sh
+
+TPM=/tmp/tpm-output
+rm -rf $TPM
+mkdir -p $TPM && wallflower -a bin/app.pl -d $TPM -F urls.txt
+scp -r $TPM/* tpm:~/public_html/
+rm -rf $TPM
