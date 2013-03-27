@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Scala</topic>
+    <datetime>2013-03-28T18:45</datetime>
+    <venue>Global Knowledge</venue>
+  </details>
+  <talk>
+    <speaker>Stuart Watt</speaker>
+    <title>Scala</title>
+  </talk>
+</meeting>
