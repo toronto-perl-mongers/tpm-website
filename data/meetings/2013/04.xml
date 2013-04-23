@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Go</topic>
+    <datetime>2013-04-25T18:45</datetime>
+    <venue>Global Knowledge</venue>
+  </details>
+  <talk>
+    <speaker>Henry Baragar</speaker>
+    <title>Go</title>
+    <description>
+      <p>
+        A talk introducing Rob Pike of Google's Go language.
+      </p>
+      <p><a href="http://golang.org">http://golang.org</a></p>
+    </description>
+  </talk>
+</meeting>
