@@ -7,12 +7,24 @@
   </details>
   <talk>
     <speaker>Henry Baragar</speaker>
-    <title>Go</title>
+    <title>Go at Google</title>
     <description>
       <p>
-        A talk introducing Rob Pike of Google's Go language.
+        Henry gives us a very informative "regurgitation" of a keynote talk that Rob Pike presented at
+SPLASH 2012.
       </p>
-      <p><a href="http://golang.org">http://golang.org</a></p>
+      <p>
+        <h4>Meeting Notes:</h4>
+	<ul>
+		<li>Go is "Object-Based", not "Object-Oriented"</li>
+		<li>Functions are first-class citizens</li>
+		<li>Instead of classes and objects, you have packages and functions (and function wrappers)</li>
+		<li>Go is intended as a systems language, intended to be used instead of C/C++</li>
+		<li>Go is very fast, so much so that compile times make it feel like a dynamic (scripting) language</li>
+		<li>Go is somewhat rigid; although it can be expressive, it does much to prevent/discourage experimentation (e.g., using it to create domain-specific languages, or DSLs)</li>
+	</ul>
+      </p>
+      <p>More information about the Google Go programming language can be found at: <a href="http://golang.org">http://golang.org/</a></p>
     </description>
   </talk>
 </meeting>
