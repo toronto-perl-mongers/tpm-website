@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>CGI.pm and its alternatives</topic>
+    <datetime>2013-05-30T18:45</datetime>
+    <venue>Global Knowledge</venue>
+  </details>
+  <talk>
+    <title>CGI.pm and its Alternatives</title>
+    <description>
+      <p>
+        CGI and its alternatives. CGI.pm might be removed from the core
+        distribution soon, what do people use for web applications these
+        days?
+      </p>
+    </description>
+  </talk>
+</meeting>
