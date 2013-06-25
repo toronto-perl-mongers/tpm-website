@@ -10,7 +10,6 @@ $meetings->load("data/meetings");
 
 ok($meetings);
 ok($meetings->meetings());
+ok( $meetings->ordered_meetings, "ordered meetings" );
 
 done_testing();
-
-1;
