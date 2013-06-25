@@ -13,3 +13,12 @@
 /Makefile
 /blib
 /cover_db
+/logs
+/tmp
+
+MYMETA*
+
+# carton
+.carton
+carton.lock
+local
