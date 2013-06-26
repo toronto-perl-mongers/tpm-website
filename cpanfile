@@ -1,10 +1,11 @@
-requires 'XML::Simple';
-requires 'Plack';
 requires 'Dancer';
-requires 'YAML';
-requires 'Dancer::Template::Alloy';
 requires 'Dancer::Plugin::Feed';
-requires 'Moose';
+requires 'Dancer::Template::Alloy';
 requires 'DateTime';
-requires 'Test::More';
 requires 'DateTime::Format::ISO8601';
+requires 'Moose';
+requires 'Plack';
+requires 'Test::More';
+requires 'XML::Simple';
+requires 'YAML';
+requires 'Wallflower';
