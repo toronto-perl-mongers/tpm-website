@@ -1,6 +1,16 @@
 This is the repository for Toronto Perl Mongers
 
+To get started:
+
+    cpanm Carton
+    carton install
+    carton exec -Ilib -- plackup
+
 To create a static dump of this dancer application, install
 https://metacpan.org/module/App::Wallflower and then run this:
 
-mkdir -p /tmp/output && wallflower -a bin/app.pl -d /tmp/output -F urls.txt
+mkdir -p /tmp/output && carton exec -Ilib -- wallflower -a bin/app.pl -d /tmp/output -F urls.txt
+
+To deploy the website to the web server:
+
+    carton exec -Ilib -- bin/deploy
