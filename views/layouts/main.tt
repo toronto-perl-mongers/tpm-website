@@ -59,15 +59,13 @@
 
     <div class="container-fluid">
         <div class="row-fluid">
-            <aside class="sidebar span2" style="float: right;">
+            <div class="span10 hero-unit">
+                [% content %]
+            </div>
+            <div class="span2 offset10">
                 <div class="well">
                     <img src="/images/logo.png" style="width: 200px;" />
                     <div class="center-text sidebar-title">Toronto Perl Mongers</div>
-                </div>
-            </aside>
-            <div class="content">
-                <div class="pull-left hero-unit" style="width: 100%;">
-                    [% content %]
                 </div>
             </div>
         </div>

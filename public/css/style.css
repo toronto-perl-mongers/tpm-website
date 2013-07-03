@@ -174,16 +174,6 @@ footer > p {
 
 /* overridden Bootstrap styles */
 
-.container-fluid > .row-fluid > .content {                                                                                                                                                       
-    margin-left: 0;                                                                                                                                                                              
-    margin-right: 200px;                                                                                                                                                                         
-} 
-
-.container-fluid > .sidebar {                                                                                                                                                                    
-    left: auto;                                                                                                                                                                                  
-    right: 20px;                                                                                                                                                                                 
-}
-
 .hero-unit h1 {
     font-size: 40px;
 }
