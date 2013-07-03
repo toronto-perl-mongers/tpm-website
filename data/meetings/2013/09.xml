@@ -7,8 +7,11 @@
     <leader label="Emcee">Fulko Hew</leader>
       <synopsis>
         <p>
-          Short, 5 to 15 minute talks from a variety of people, on any
-          subject as long as it's got at least a tangent to Perl.
+
+          Short, 5 to 15 minute talks from a variety of people, on any subject
+          as long as may be of interest to those attending.  It need not be
+          directly related to Perl.
+
         </p>
         <p>
           The order of talks listed here does not imply any order of
