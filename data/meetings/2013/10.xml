@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>perl5i and MetaCPAN</topic>
+    <datetime>2013-10-24T18:45</datetime>
+    <venue>Global Knowledge</venue>
+    <synopsis>
+
+      Tom Legrady and Olaf Alders will both be presenting tonight, on two very
+      different topics.
+
+    </synopsis>
+  </details>
+  <talk>
+    <speaker>Tom Legrady</speaker>
+    <title>perl5i</title>
+    <description>
+    Tom has written a series of blog posts about <a href="https://metacpan.org/module/perl5i">perl5i</a>.
+    </description>
+  </talk>
+  <talk>
+    <speaker>Olaf Alders</speaker>
+    <title>Installing the MetaCPAN VM</title>
+    <description>
+
+      In order to speed up hacking on MetaCPAN, virtual machines (VM) can now
+      be downloaded to get you up and running in a hurry.  These VMs are
+      preconfigured and Debian machines which come with pretty much everything
+      you need to get MetaCPAN up and running on your own machine.  To download
+      your own VM before the meeting beggins, checkout the <a
+      href="https://github.com/cpan-api/metacpan-developer">metacpan-developer</a>
+      instructions.
+
+      In this first of two parts, we'll talk about what it takes to get the VM
+      up and running and we'll take some time to troubleshoot any issues which
+      folks have had with the basic install.  Please do follow the instructions
+      listed above to install (or at least download) the VM before the meeting
+      begins, so that we can be as productive as possible.
+
+      MetaCPAN makes use of Vagrant, VirtualBox, ElasticSearch, Catalyst,
+      jQuery, Template Toolkit and a whole lot of other technology which can
+      help you towards full buzzword compliance.
+
+    </description>
+  </talk>
+</meeting>

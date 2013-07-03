@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Lightning Talks!</topic>
+    <datetime>2013-09-26T18:45</datetime>
+    <venue>Global Knowledge</venue>
+    <leader label="Emcee">Fulko Hew</leader>
+      <synopsis>
+        <p>
+          Short, 5 to 15 minute talks from a variety of people, on any
+          subject as long as it's got at least a tangent to Perl.
+        </p>
+        <p>
+          The order of talks listed here does not imply any order of
+          presentation.
+        </p>
+      </synopsis>
+  </details>
+  <talk>
+    <speaker>Abram Hindle</speaker>
+    <title>TBA</title>
+    <description>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Mark Jubenville</speaker>
+    <title>TBA</title>
+    <description>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Matt Phillips</speaker>
+    <title>TBA</title>
+    <description>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Olaf Alders</speaker>
+    <title>TBA</title>
+    <description>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Mike Stok</speaker>
+    <title>TBA</title>
+    <description>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Tom Legrady</speaker>
+    <title>TBA</title>
+    <description>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Alex Beamish</speaker>
+    <title>TBA</title>
+    <description>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Dave Doyle</speaker>
+    <title>TBA</title>
+    <description>
+    </description>
+  </talk>
+
+</meeting>
+
