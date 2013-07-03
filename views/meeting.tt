@@ -5,7 +5,6 @@
 <div class="meeting-date">[% meeting.details.datetime.strftime('%d %B %Y') %]</div>
 [% UNLESS hide_layout %]<div class="meeting-label">[% meeting.label %]</div>[% END %]
 
-<div style="width: 100%;">
 <div class="pull-left alert alert-info meeting-details">
 [% UNLESS hide_layout %]
 	<div class="pull-left section">Topic</div>
@@ -22,7 +21,6 @@
 	<div class="pull-left section">Moderator</div>
 	<div class="pull-right info">[% meeting.details.moderator %]</div>
 	[%- END %]
-</div>
 </div>
 
 [%- IF meeting.details.synopsis %]
