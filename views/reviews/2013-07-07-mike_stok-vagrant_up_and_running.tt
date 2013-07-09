@@ -1,0 +1,61 @@
+<h1>Vagrant: Up and Running - Mitchell Hashimoto, 2013</h1>
+<p>
+<a href="http://oreilly.com/catalog/9780596000271"
+  >http://oreilly.com/catalog/9780596000271</a>
+<em>Reviewed by Mike Stok, July 2013</em>
+</p>
+
+<p><a href="http://shop.oreilly.com/product/0636920026358.do">Vagrant:
+Up and Running</a> is a relatively new book from the reliable
+O'Reilly stable. The author of the book and creator of <a
+href="http://www.vagrantup.com/about.html">Vagrant</a>, Mitchell
+Hashimoto, says: <em>"Vagrant is a tool for building complete
+development environments, sandboxed in a virtual machine."</em></p>
+
+<p>This is a short and dense book. It can be read "cover to cover"
+to get a good overview of the whys, hows, and details of Vagrant;
+it can be used as a reference - although you should keep an eye on
+the <a href="https://github.com/mitchellh/vagrant">source</a> as
+Vagrant's a living project. </p>
+
+<p>For me the book provides a solid foundation for day to day use
+of Vagrant, with plenty of guidance for getting into more advanced
+usage. Automation is encouraged by Vagrant's workflows, and Vagrant
+plays well with Chef and Puppet to provision systems. There are no
+obvious gaps in the book from my perspective, it covers a lot of
+ground in a relatively slim volume (196 pages on my iPad, 156 pages
+in paper according to O'Reilly).</p>
+
+<p>To me the big benefit of Vagrant is that you can provide a project
+with a base box and a Vagrantfile, and any contributor will be able
+to quickly and easily bring up a standard environment in which to
+develop and test. This can eliminate any number of <em>"...but it
+works on my system!"</em> type problems.</p>
+
+<p>The book explicitly states <em>The Tao of Vagrant</em> which
+essentially means that developers and systems operations engineers
+are all able to use identically built systems in VMs while still
+able to use their favourite tools and workflows on their development
+hosts. These systems are easy and quick to mint. The book works its
+way from simple set-ups to more complicated examples using multiple
+virtual machines networked together. By the end of the book you
+have been exposed to Vagrant plugins, and you will most likely have
+enough of its concepts under your belt to navigate the source (even
+if you're not yet familiar with <a
+href="http://www.ruby-lang.org/">Ruby</a>).</p>
+
+<p>There is some repetition in the book which makes it easier to
+use as reference, but seems a little odd when reading it end to
+end. As there's no filler in the book this is not an issue in my
+eyes.</p>
+
+<p>If you need to distribute environments which can be run inside
+virtual machines to developers, testers, or deployers then Vagrant
+is a tool worth a long hard look, and Vagrant: Up and Running is a
+great kickstart and reference guide.</p>
+
+<hr>
+<p><small>The original version of this review is on <a
+  href="http://www.stok.ca/blog/2013/07/07/vagrant-up-and-running-a-review/"
+  >Mike's
+  blog</a>.</small></p>
