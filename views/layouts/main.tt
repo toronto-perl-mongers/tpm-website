@@ -59,13 +59,12 @@
 
     <div class="container-fluid">
         <div class="row-fluid">
-            <div class="span10 hero-unit">
+            <div class="span9 hero-unit">
                 [% content %]
             </div>
-            <div class="span2 offset10">
+            <div class="span3 offset10">
                 <div class="well">
-                    <img src="/images/logo.png" style="width: 200px;" />
-                    <div class="center-text sidebar-title">Toronto Perl Mongers</div>
+                    <iframe width="150" height="600" src="http://meetu.ps/1Qnjsb" frameborder="0"></iframe>
                 </div>
             </div>
         </div>
