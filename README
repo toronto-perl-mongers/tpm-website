@@ -11,6 +11,14 @@ https://metacpan.org/module/App::Wallflower and then run this:
 
 mkdir -p /tmp/output && carton exec -Ilib -- wallflower -a bin/app.pl -d /tmp/output -F urls.txt
 
+After creating static content in '/tmp/output/', you will need to install
+and use App::HTTPThis if you want to view the site locally (for testing
+purposes).  E.g:
+
+$ cpanm App::HTTPThis
+$ http_this /tmp/output/
+
+
 To deploy the website to the web server:
 
     carton exec -Ilib -- bin/deploy
