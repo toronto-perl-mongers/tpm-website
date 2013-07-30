@@ -1,6 +1,6 @@
-[% IF hide_layout %]
+[% IF hide_layout -%]
     [% content %]
-[% ELSE %]
+[% ELSE -%]
 <!DOCTYPE html>
 
 <html>
