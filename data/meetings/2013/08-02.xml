@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Guest Speaker: Damian Conway</topic>
+    <datetime>2013-08-08T18:45</datetime>
+    <venue>University of Toronto, St. George Campus (downtown), Bahen Centre for IT
+      (40 St. George Street, just north of College St.), Room # BA-1160</venue>
+  </details>
+  <talk>
+    <speaker>Damian Conway</speaker>
+    <title><a href="http://damian.conway.org/Seminars/FavoriteThings.html">A
+        Few of My Favorite Things</a></title>
+    <description>
+      <p>(Go to the <a href="http://damian.conway.org/Seminars/FavoriteThings.html"
+          >URL</a>, read the description.  It will be Perl 5 Madness, Damian
+        style.)</p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Damian Conway</speaker>
+    <title><a href="http://damian.conway.org/Seminars/SexViolence.html">Sex
+        and Violence: Social and Technical Lessons from the Perl 6
+        Project</a></title>
+    <description>
+      <p>In June 2000, Larry Wall announced a new four-month Open
+        Source development
+        effort: the reinvention of Perl. In this keynote, Damian Conway
+        will unfold the twisting and sordid tale of what happened over the
+        next ten years of the project, highlighting the sexy new language
+        that has been created, the extreme violence that was sometimes
+        necessary to make it happen, and the dozen or so harsh-but-invaluable
+        lessons that the development team learned along the way.</p>
+    </description>
+  </talk>
+</meeting>
