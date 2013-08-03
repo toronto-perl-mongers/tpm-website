@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Adventures in Remote Pair Programming</topic>
+    <datetime>2013-08-29T18:45</datetime>
+    <venue>Global Knowledge</venue>
+  </details>
+  <talk>
+    <speaker>Mike Stok</speaker>
+    <title>Adventures in Remote Pair Programming</title>
+    <description>
+      <p>As connectivity and tools get better how easy is it to remote
+        pair program? This talk should demonstrate a couple of ways to
+        pair program using various tools over the internet.</p>
+    </description>
+  </talk>
+</meeting>

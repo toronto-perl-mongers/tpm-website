@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Guest Speaker: Damian Conway</topic>
+    <datetime>2013-08-06T18:45</datetime>
+    <venue>Mozilla Offices, Suite 500, 366 Adelaide Street West (just east of Spadina)</venue>
+  </details>
+  <talk>
+    <speaker>Damian Conway</speaker>
+    <title><a href="http://damian.conway.org/Seminars/DeadLanguages.html">Fun
+        with Dead Languages</a></title>
+    <description>
+      <p>Watch in mesmerized terror as Damian hacks code in several
+        unrelated
+        programming languages (none of them Perl). Along the way, you'll
+        also discover what's wrong with modern CS education, why programmers
+        shouldn't frequent casinos, the power of Thor's Law, the language
+        of moisture vaporators, C++ mysticism, how to use the three shells,
+        state machines on steroids, programming without variables or
+        subroutines, a cheap and eco-friendly alternative for distributed
+        persistent computation, what the Romans used instead of braces, the
+        ancient probabilistic wisdom of bodkins, and the price of fish.</p>
+
+
+      <p>(Ed.: This is going to be the more outlandish of his talks this
+        year.  It is a new-and-improved version of a talk Damian last gave
+        in Toronto seven years ago where he demonstrates his virtuosity --
+        and insanity -- in many programming languages and paradigms.  Computer
+        geeks from all language backgrounds should enjoy this thoroughly.)</p>
+    </description>
+  </talk>
+</meeting>
