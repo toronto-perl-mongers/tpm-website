@@ -3,28 +3,19 @@
 [% META page_info = 'Find various projects which the Toronto Perl Mongers are involved with.' %]
 
 <div class="pull-left meetings-row">
-	<div class="pull-left meetings-date">
-		<a href="http://github.com/CPAN-API/cpan-api/wiki" class="label label-info">CPAN API</a>
-	</div>
-	<div class="pull-left meetings-label">
-		Provide an API to CPAN.
-	</div>
+    <div class="pull-left meetings-date">
+        <a href="http://github.com/CPAN-API/cpan-api/wiki" class="label label-info">CPAN API</a>
+    </div>
+    <div class="pull-left meetings-label">
+        Provide an API to CPAN.
+    </div>
 </div>
 
 <div class="pull-left meetings-row">
-	<div class="pull-left meetings-date">
-		<a href="http://github.com/Freshwater-Perl/Freshwater-Planning/wiki" class="label label-info">Freshwater::Perl</a>
-	</div>
-	<div class="pull-left meetings-label">
-		A Perl workshop in Toronto.
-	</div>
-</div>
-
-<div class="pull-left meetings-row">
-	<div class="pull-left meetings-date">
-		<a href="http://github.com/mikestok/tpm-webpage-generator" class="label label-info">TPM site generator</a>
-	</div>
-	<div class="pull-left meetings-label">
-		Used to generate this site.
-	</div>
+    <div class="pull-left meetings-date">
+        <a href="http://github.com/mikestok/tpm-webpage-generator" class="label label-info">TPM site generator</a>
+    </div>
+    <div class="pull-left meetings-label">
+        Used to generate this site.
+    </div>
 </div>
