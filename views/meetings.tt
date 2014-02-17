@@ -2,6 +2,12 @@
 [% META page_title = 'Meetings' %]
 [% META page_info = '' %]
 
+<p>
+The authoritative meetings calendar is maintained on the 
+<a href="http://www.meetup.com/Toronto-Perl-Mongers/">Toronto Perl Mongers
+Meetup</a> site.
+</p>
+
 [%- FOREACH meeting IN meetings.ordered_meetings() %]
 <div class="pull-left meetings-row">
     <div class="pull-left meetings-date">
