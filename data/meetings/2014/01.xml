@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Hacking on the MetaCPAN VM</topic>
+    <datetime>2014-01-30T19:00</datetime>
+    <venue>Global Knowledge</venue>
+    <synopsis>
+      Olaf talks about working on a MetaCPAN VM.
+
+      Please note that the meeting begins at 7 PM EST (Eastern
+      Standard Time).
+    </synopsis>
+  </details>
+  <talk>
+    <speaker>Olaf Alders</speaker>
+    <title>Hacking on the MetaCPAN VM</title>
+    <description>
+      In order to speed up hacking on <a
+      href="https://metacpan.org/">MetaCPAN</a>, virtual machines
+      (VM) can now be downloaded to get you up and running in a
+      hurry. These VMs are preconfigured and Debian machines which
+      come with pretty much everything you need to get MetaCPAN up
+      and running on your own machine. To download your own VM
+      before the meeting begins, checkout the instructions.
+
+      In the first part of this talk (in the October meeting) we
+      got the VM installed and ready to go. Now, we'll be ready to
+      contribute to MetaCPAN directly. The hope is that we can
+      squash a few bugs together and send at least a couple of pull
+      requests to the MetaCPAN team.
+
+      To download your own VM before the meeting begins, <a
+      href="https://github.com/cpan-api/metacpan-developer">checkout
+      the instructions</a>.
+    </description>
+  </talk>
+</meeting>

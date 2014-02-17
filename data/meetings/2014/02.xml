@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>DBIx::Class + Data::Query; DECK; Intro to Smalltalk</topic>
+    <datetime>2014-02-27T18:45</datetime>
+    <venue>Global Knowledge</venue>
+    <synopsis>
+
+      Matt Phillips and Chris Reuter will be presenting tonight.
+
+    </synopsis>
+  </details>
+  <talk>
+    <speaker>Matt Phillips</speaker>
+    <title>DBIx::Class + Data::Query</title>
+    <description>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Chris Reuter</speaker>
+    <title>DECK and an Introduction to Smalltalk</title>
+    <description>
+      The DECK programming language.
+
+      An introduction to Smalltalk.
+    </description>
+  </talk>
+</meeting>
