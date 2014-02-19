@@ -5,9 +5,9 @@
     <datetime>2014-02-27T18:45</datetime>
     <venue>Global Knowledge</venue>
     <synopsis>
-
+      <p>
       Matt Phillips and Chris Reuter will be presenting tonight.
-
+      </p>
     </synopsis>
   </details>
   <talk>
@@ -20,9 +20,15 @@
     <speaker>Chris Reuter</speaker>
     <title>DECK and an Introduction to Smalltalk</title>
     <description>
-      The DECK programming language.
-
-      An introduction to Smalltalk.
+      <p>
+      This frist talk describes Deck, a small experimental programming
+      language.  I will describe the language and some of the reasoning
+      behind its design, as well as the details of its implementation in
+      Perl.
+      </p>
+      <p>
+      The second talk will be a brief introduction to Smalltalk.
+      </p>
     </description>
   </talk>
 </meeting>
