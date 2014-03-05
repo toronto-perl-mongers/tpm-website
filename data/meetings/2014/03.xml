@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>AngularJS; Returning to Perl</topic>
+    <datetime>2014-03-27T18:45</datetime>
+    <venue>TBD</venue>
+    <synopsis>
+      <p>
+        Matt Phillips, Justin Pacheco, Stuart Watt, and Dave Doyle will be
+        presenting this evining.
+      </p>
+    </synopsis>
+  </details>
+  <talk>
+    <speaker>Matt Phillips &amp; Justin Pacheco</speaker>
+    <title>An introduction to AngularJS</title>
+    <description>
+      <p>
+      AngularJS is a toolkit for extending HTML for dynamic applications.
+      </p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Stuart Watt</speaker>
+    <title>AngularJS Directives</title>
+    <description>
+      <p>
+      A look at some of the directives in AngularJS.
+      </p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Dave Doyle</speaker>
+    <title>Returning to Perl &amp; Modern Perl</title>
+    <description>
+      <p>
+        After a two year absence, what is it like returning to Perl? What are
+        the accepted standards in Perl now as represented by the Modern Perl
+        movement?
+      </p>
+    </description>
+  </talk>
+</meeting>
