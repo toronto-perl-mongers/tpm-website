@@ -25,7 +25,10 @@
     <title>AngularJS Directives</title>
     <description>
       <p>
-      A look at some of the directives in AngularJS.
+        A look at some of the directives in AngularJS, and at how to write
+        your own directives - that's where the fun starts and what makes
+        AngularJS such a great framework compared to the "classical" template
+        based ones to Stuart.
       </p>
     </description>
   </talk>
