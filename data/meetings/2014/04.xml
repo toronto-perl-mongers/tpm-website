@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Doubleheader: AngularJS and SyContent</topic>
+    <datetime>2014-04-24T19:00</datetime>
+    <venue>OANDA - 370 King Street West</venue>
+    <synopsis>
+      <p>
+        OANDA's offices are at 370 King Street West, Toronto, ON. Go to the
+        west elevators and head on up to the second floor. The door is locked,
+        please knock and someone will let you in.
+      </p>
+      <p>
+        We have two talks to look forward to this month.  One local and one remote:
+      </p>
+    </synopsis>
+  </details>
+  <talk>
+    <speaker>Matt Phillips &amp; Justin Pacheco</speaker>
+    <title>An introduction to AngularJS</title>
+    <description>
+      <p>
+      AngularJS is a toolkit for extending HTML for dynamic applications.
+      </p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Getty</speaker>
+    <title>SyContent</title>
+    <description>
+      <p>
+        SyContent is a publishing service written in Perl, using
+        Google V8 scripting engine. It allows content management in
+        the cloud, while still using own resources to host the content
+        and to assure the privacy of website users. The author,
+        Getty, will introduce many advantages of the concept in the
+        talk, next to an explanation on how the system was built.
+      </p>
+    </description>
+  </talk>
+</meeting>
