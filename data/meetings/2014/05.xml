@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Doubleheader: OrientDB and Qstruct</topic>
+    <datetime>2014-05-29T19:00</datetime>
+    <venue>OANDA - 370 King Street West</venue>
+    <synopsis>
+      <p>
+        OANDA's offices are at 370 King Street West, Toronto, ON. Go to the
+        west elevators and head on up to the second floor. The door is locked,
+        please knock and someone will let you in.
+      </p>
+    </synopsis>
+  </details>
+  <talk>
+    <speaker>Adam Wright &amp; Joel Wieser</speaker>
+    <title>OrientDB and XS Module Development (PlOrient)</title>
+    <description>
+      <p>
+        OrientDB is an open-source object oriented database which
+        stores JAVA objects (POJOs). It is fast, scalable and easy
+        to use. In particular it is useful because it stores data
+        in an intuitive structure and efficiently handles relations
+        between objects. We have been working on an XS binary
+        interface that we are intending on using at the Ontario
+        Institute for Cancer Research (OICR) and are planning on
+        releasing as a CPAN module. The intent of the talk is to
+        go over both database designs and lessons learnt while
+        developing our first XS module.
+      </p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Doug Hoyte</speaker>
+    <title>Qstruct</title>
+    <description>
+      <p>
+        Qstruct is a module that implements a
+        schema-based binary serialisation protocol. Its main advantage
+        is that the in-memory format is the same as the wire format
+        so there are no explicit encoding or decoding steps, and
+        as a result is nearly as efficient as C structures. Despite
+        this, implementations are designed to be portable and safe,
+        and the schema is designed to be extensible and flexible.
+        This talk will cover basic and advanced use of Qstruct, its
+        encoding specification, the Qstruct schema language and its
+        ragel parser implementation, Qstruct::Compiler, and the XS
+        perl bindings to libqstruct that form the reference dynamic
+        implementation.
+      </p>
+    </description>
+  </talk>
+</meeting>
