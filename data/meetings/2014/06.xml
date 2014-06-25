@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Doubleheader: Failure Is an Option and Type::Tiny</topic>
+    <datetime>2014-06-26T19:00</datetime>
+    <venue>OANDA - 370 King Street West</venue>
+    <synopsis>
+      <p>
+        OANDA's offices are at 370 King Street West, Toronto, ON. Go to the
+        west elevators and head on up to the second floor. The door is locked,
+        please knock and someone will let you in.
+      </p>
+    </synopsis>
+  </details>
+  <talk>
+    <speaker>Mike Stok</speaker>
+    <title>Failure Is an Option</title>
+    <description>
+      <p>
+        This consists of some of Mike's experience trying to become
+        more agile and the things that derail it.
+      </p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Dave Doyle</speaker>
+    <title>Type::Tiny</title>
+    <description>
+      <p>
+	A more in depth talk on a type checking system for Perl.
+	Type::Tiny is Moose and Moo compatible as well as independantly
+	for parameter validation.  Create your types and subtypes,
+	create libraries of types that can be shared across apps.
+      </p>
+    </description>
+  </talk>
+</meeting>
