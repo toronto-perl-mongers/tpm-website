@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Doubleheader: Regular Expressions &amp; Contributions</topic>
+    <datetime>2014-07-30T19:00</datetime>
+    <venue>OANDA - 370 King Street West</venue>
+    <synopsis>
+      <p>
+        OANDA's offices are at 370 King Street West, Toronto, ON
+        At the Hyatt Regency Hotel, take the west office elevators by the
+        security desk to the second floor.
+      </p>
+      <p>
+        Please note this is the first month we'll be holding our
+        meeting on the last Wednesday of the month and this will
+        become our customary time.
+      </p>
+
+      <p>
+        Two talks this time around though any attendees of YAPC::NA
+        last month are welcome to talk about interesting talks they
+        saw and do a recap for us.  I particularly regret missing
+        Charles Stross's keynote as I'm a big fan.
+      </p>
+    </synopsis>
+  </details>
+  <talk>
+    <speaker>Doug Hoyte</speaker>
+    <title>Getting the most out of Regular Expressions</title>
+    <description>
+      <p>
+        Perl's regular expression engine is one of the most advanced
+        around. This talk will discuss some well-known and
+        less-well-known modules that can help you take full advantage
+        of regexps. Regexp::Debugger - debug and performance profile
+        your regular expressions. Regexp::Assemble - compose multiple
+        regexps into a single monster regexp. Regexp::Grammars -
+        remember how parsing nested structures with regexps is
+        "impossible"? Not any-more. Regexp::Exhaustive - no match
+        left behind. Bio::Regexp - apply perl regular expressions
+        to bio-informatics problems. Bonus: We'll also talk about
+        some neat unicode regexp features, perl 5.14's re-entrant
+        regexp engine, and a long-standing regexp segfault bug
+        finally fixed in perl 5.18.
+      </p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Matt Philips</speaker>
+    <title>My Contributions</title>
+    <description>
+      <p>
+        Matt will be talking about modules he's contributed to CPAN
+        and what problems they solved.
+      </p>
+    </description>
+  </talk>
+</meeting>
