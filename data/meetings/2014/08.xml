@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Doubleheader: Matt's Contributions &amp; CPANday</topic>
+    <datetime>2014-08-27T19:00</datetime>
+    <venue>OANDA - 370 King Street West</venue>
+    <synopsis>
+      <p>
+        OANDA's offices are at 370 King Street West, Toronto, ON
+        At the Hyatt Regency Hotel, take the west office elevators by the
+        security desk to the second floor.
+      </p>
+    </synopsis>
+  </details>
+  <talk>
+    <speaker>Matt Phillips</speaker>
+    <title>My Contributions</title>
+    <description>
+      <p>
+        Matt will be talking about modules he's contributed to CPAN and what
+        problems they solved. This is also a chance to wish Matt bon voyage as
+        he departs for NYC at the end of the month. 
+      </p>
+    </description>
+  </talk>
+  <talk>
+    <speaker>Dave Doyle</speaker>
+    <title>CPANday</title>
+    <description>
+      <p>
+        Dave will give a little rundown on CPANday, which was August 16th.
+        What was it?  Why did it happen? What happened?
+      </p>
+    </description>
+  </talk>
+</meeting>
