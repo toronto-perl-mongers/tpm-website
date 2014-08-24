@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<meeting>
+  <details>
+    <topic>Lightning Talks</topic>
+    <datetime>2014-09-24T19:00</datetime>
+    <venue>OANDA - 370 King Street West</venue>
+    <synopsis>
+      <p>
+        Every September we do Lightning talks: 5 minute time boxed
+        presentations on anything you think might be of interest
+        to the community.
+      </p>
+      <p>
+        Please feel free to drop me a line to get yourself added.
+        If your presentation is strictly slides, please email them
+        to dave.s.doyle@gmail.com ahead of the meeting so I can set
+        them up on my machine to simplify the presentation process
+        and keep things easy for our Google Hangout broadcast.
+      </p>
+      <p>
+        This list will be updated as details roll in:
+      </p>
+      <p>
+        OANDA's offices are at 370 King Street West, Toronto, ON
+        At the Hyatt Regency Hotel, take the west office elevators by the
+        security desk to the second floor.
+      </p>
+    </synopsis>
+  </details>
+  <talk>
+    <speaker>Alex Beamish</speaker>
+    <title>Tools for doing local email development</title>
+  </talk>
+  <talk>
+    <speaker>Dave Doyle</speaker>
+    <title>Lightning Talk</title>
+  </talk>
+  <talk>
+    <speaker>Doug Hoyte</speaker>
+    <title>Lightning Talk</title>
+  </talk>
+  <talk>
+    <speaker>Olaf Alders</speaker>
+    <title>LWP::ConsoleLogger</title>
+  </talk>
+  <talk>
+    <speaker>Stuart Watt</speaker>
+    <title>Lightning Talk</title>
+  </talk>
+</meeting>
